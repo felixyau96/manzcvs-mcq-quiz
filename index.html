@@ -23,7 +23,7 @@
       </div>
     </div>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=20261021a"></script>
   <script>
     async function load() {
       const bank = await ManzQuiz.loadBank();
@@ -33,7 +33,8 @@
         const btn = document.createElement('button');
         btn.className = 'week-btn';
         btn.type = 'button';
-        btn.innerHTML = `<strong>${ManzQuiz.escapeHtml(w.title)}</strong><span class="muted">${ManzQuiz.escapeHtml(w.id)} · ${w.count} questions</span>`;
+        const label = (w && w.title) || ManzQuiz.weekLabel(w.id) || w.id;
+        btn.innerHTML = `<strong>${ManzQuiz.escapeHtml(label)}</strong><span class="muted">${ManzQuiz.escapeHtml(w.id)} · ${w.count} questions</span>`;
         btn.onclick = () => { location.href = 'quiz.html?week=' + encodeURIComponent(w.id); };
         el.appendChild(btn);
       }

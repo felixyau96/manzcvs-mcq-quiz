@@ -19,11 +19,12 @@
       <p class="muted">Starting…</p>
     </div>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=20261021a"></script>
   <script>
     const params = new URLSearchParams(location.search);
     const week = (params.get('week') || 'W01').toUpperCase();
-    document.getElementById('title').textContent = ManzQuiz.weekLabel(week);
+    document.getElementById('title').textContent =
+      (typeof ManzQuiz.weekLabel === 'function' ? ManzQuiz.weekLabel(week) : week);
 
     let st = null;
     let awaitingNext = false;
