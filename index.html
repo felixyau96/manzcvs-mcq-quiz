@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MANZCVS Quiz · Felix</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>MANZCVS MCQ Quiz</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+      </nav>
+    </header>
+    <div class="card">
+      <h2>Choose a week</h2>
+      <p class="muted">30 single-best-answer questions (A–E). Questions and options shuffle each attempt. Instant feedback after every answer. Scores stay in this browser only (localStorage).</p>
+      <div class="week-grid" id="weeks">
+        <p class="muted">Loading…</p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script>
+    async function load() {
+      const bank = await ManzQuiz.loadBank();
+      const el = document.getElementById('weeks');
+      el.innerHTML = '';
+      for (const w of ManzQuiz.weekCounts(bank)) {
+        const btn = document.createElement('button');
+        btn.className = 'week-btn';
+        btn.type = 'button';
+        btn.innerHTML = `<strong>${ManzQuiz.escapeHtml(w.id)}</strong><span class="muted">${w.count} questions</span>`;
+        btn.onclick = () => { location.href = 'quiz.html?week=' + encodeURIComponent(w.id); };
+        el.appendChild(btn);
+      }
+    }
+    load().catch(err => {
+      document.getElementById('weeks').innerHTML = `<p class="muted">Failed to load: ${ManzQuiz.escapeHtml(String(err))}</p>`;
+    });
+  </script>
+</body>
+</html>

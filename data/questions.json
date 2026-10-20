@@ -1,0 +1,1268 @@
+{
+  "W01": [
+    {
+      "id": "W01-Q1",
+      "week": "W01",
+      "stem": "A shocked dog with isotonic GI losses needs intravascular volume restored. Which fluid type is the most appropriate first choice for resuscitation boluses?",
+      "options": {
+        "A": "5% dextrose in water (D5W)",
+        "B": "Half-strength saline with dextrose",
+        "C": "Isotonic crystalloid (e.g. balanced replacement solution or 0.9% NaCl)",
+        "D": "Pure free water orally",
+        "E": "Hypertonic saline as sole long-term maintenance"
+      },
+      "answer": "C",
+      "explanation": "Isotonic crystalloids expand ECF/intravascular volume and are first-line for hypovolaemia/shock and most isotonic dehydration. Hypotonic/free-water fluids are for free-water deficit after perfusion is safe — not for resuscitation."
+    },
+    {
+      "id": "W01-Q2",
+      "week": "W01",
+      "stem": "Which statement best matches body-fluid compartments and fluid choice?",
+      "options": {
+        "A": "Isotonic crystalloids preferentially refill ICF",
+        "B": "Most total body water is in ICF; isotonic crystalloids mainly expand ECF",
+        "C": "Colloids are first-line for simple dehydration in every GP case",
+        "D": "D5W is preferred for shock boluses because dextrose expands plasma",
+        "E": "Free-water deficit should be corrected before treating shock"
+      },
+      "answer": "B",
+      "explanation": "TBW is mainly ICF; ECF (interstitial + plasma) is smaller. Isotonic crystalloids expand ECF. Replace the compartment lost: shock → isotonic crystalloid first; free water later if needed."
+    },
+    {
+      "id": "W01-Q3",
+      "week": "W01",
+      "stem": "First step in working up hyponatraemia at membership level is:",
+      "options": {
+        "A": "Immediately give hypertonic saline to all dogs with Na <130 mmol/L",
+        "B": "Assess tonicity / osmolality (or clinical osmoles) before volume status",
+        "C": "Restrict free water in every hypovolaemic patient",
+        "D": "Calculate Winter’s formula",
+        "E": "Assume SIADH until proven otherwise"
+      },
+      "answer": "B",
+      "explanation": "Tonicity first: hypertonic (e.g. severe hyperglycaemia), isotonic/pseudohyponatraemia, or true hypotonic. Only then classify hypotonic cases by volume status."
+    },
+    {
+      "id": "W01-Q4",
+      "week": "W01",
+      "stem": "A diabetic dog has marked hyperglycaemia and low measured Na. The most accurate interpretation is:",
+      "options": {
+        "A": "True hypotonic hyponatraemia requiring free-water restriction",
+        "B": "Hypertonic hyponatraemia — water drawn into ECF by effective osmoles; treat the osmoles",
+        "C": "Pseudohyponatraemia from hyperproteinaemia alone",
+        "D": "Hypervolaemic hyponatraemia from heart failure",
+        "E": "Indication for immediate 3% saline regardless of symptoms"
+      },
+      "answer": "B",
+      "explanation": "Severe hyperglycaemia (or mannitol) creates hypertonic hyponatraemia by pulling water into ECF and diluting Na. Treat the osmoles; do not manage as primary hypotonic hyponatraemia."
+    },
+    {
+      "id": "W01-Q5",
+      "week": "W01",
+      "stem": "Hypotonic hypovolaemic hyponatraemia (e.g. ongoing GI Na loss) is best managed initially by:",
+      "options": {
+        "A": "Free-water restriction alone",
+        "B": "Loop diuretics to raise Na",
+        "C": "Restoring volume with isotonic crystalloid and stopping ongoing losses",
+        "D": "Immediate chronic correction faster than 20 mmol/L in 24 h",
+        "E": "D5W boluses for shock"
+      },
+      "answer": "C",
+      "explanation": "Hypovolaemic hypotonic hyponatraemia needs volume restoration with isotonic crystalloid and control of losses. Free-water restriction fits euvolaemic/hypervolaemic patterns, not volume-depleted patients."
+    },
+    {
+      "id": "W01-Q6",
+      "week": "W01",
+      "stem": "For chronic or unknown-duration hyponatraemia, a safe approximate ceiling for the rise in Na is:",
+      "options": {
+        "A": "2–3 mmol/L in 24 h",
+        "B": "About 10–12 mmol/L in 24 h",
+        "C": "20–25 mmol/L in 24 h",
+        "D": "Correct to normal Na within 6 hours always",
+        "E": "No limit if the patient is eating"
+      },
+      "answer": "B",
+      "explanation": "Chronic/unknown-duration hyponatraemia: keep the rise around ~10–12 mmol/L per 24 h to reduce osmotic demyelination risk. Acute symptomatic seizures need urgent but controlled rise, then slow down."
+    },
+    {
+      "id": "W01-Q7",
+      "week": "W01",
+      "stem": "A hypovolaemic dog with Na 165 mmol/L is shocked. First priority is:",
+      "options": {
+        "A": "Immediate free-water replacement with D5W boluses",
+        "B": "Restore perfusion with isotonic crystalloid, then replace free water slowly",
+        "C": "Restrict all fluids until Na is normal",
+        "D": "Give insulin + dextrose to lower Na",
+        "E": "Apply Winter’s formula to guide fluid Na"
+      },
+      "answer": "B",
+      "explanation": "Hypernatraemia implies free-water deficit, but shock is treated first with isotonic crystalloid. After perfusion is safe, correct free water slowly with fluid Na below patient Na."
+    },
+    {
+      "id": "W01-Q8",
+      "week": "W01",
+      "stem": "Conceptual free-water deficit uses which relationship?",
+      "options": {
+        "A": "FW deficit = BW × ([Na]patient − [Na]desired)",
+        "B": "FW deficit = TBW × ([Na]patient / [Na]desired − 1)",
+        "C": "FW deficit = ECF × ([Na]desired / [Na]patient)",
+        "D": "FW deficit = PCV × (Na patient − 140)",
+        "E": "FW deficit = USG × BW × 0.1"
+      },
+      "answer": "B",
+      "explanation": "FW deficit ≈ TBW × ([Na]patient/[Na]desired − 1). TBW is a fraction of body weight (~0.6 × BW often used in adult dogs; lower fractions often for cats/obese). Recheck Na — formulas are a start, not autopilot."
+    },
+    {
+      "id": "W01-Q9",
+      "week": "W01",
+      "stem": "Target rate for lowering Na in chronic hypernatraemia is approximately:",
+      "options": {
+        "A": "25–30 mmol/L fall in the first 12 h",
+        "B": "~10–12 mmol/L fall per 24 h",
+        "C": "Normalise Na in under 4 hours",
+        "D": "No monitoring needed if using D5W",
+        "E": "Fall of 1 mmol/L per minute until Na 140"
+      },
+      "answer": "B",
+      "explanation": "After volume is restored, replace free water slowly, targeting a similar chronic ceiling (~10–12 mmol/L fall / 24 h) with frequent Na checks."
+    },
+    {
+      "id": "W01-Q10",
+      "week": "W01",
+      "stem": "In a blocked cat with K 8.2 mmol/L and bradycardia, calcium gluconate is given primarily to:",
+      "options": {
+        "A": "Lower serum potassium by shifting K into cells",
+        "B": "Provide membrane cardioprotection; it does not lower K⁺",
+        "C": "Replace total-body calcium deficit from obstruction",
+        "D": "Increase urine potassium excretion immediately",
+        "E": "Reverse azotaemia"
+      },
+      "answer": "B",
+      "explanation": "Calcium gluconate (when indicated) stabilises cardiac membranes. It does not lower K⁺ — you still need measures that shift or remove K⁺ and fix the cause (e.g. relieve obstruction)."
+    },
+    {
+      "id": "W01-Q11",
+      "week": "W01",
+      "stem": "Correct priority order for life-threatening hyperkalaemia is best summarised as:",
+      "options": {
+        "A": "Remove K first, then ECG, then calcium",
+        "B": "ECG/arrhythmia risk → cardioprotection (Ca if indicated) → drive K intracellularly → remove K / fix cause",
+        "C": "Insulin + dextrose first in every case before assessing the heart",
+        "D": "Bicarbonate as sole therapy for all hyperkalaemia",
+        "E": "Stop monitoring once calcium is given"
+      },
+      "answer": "B",
+      "explanation": "Treat the patient (ECG risk) first; Ca for cardioprotection if indicated; then shift K (e.g. insulin + dextrose — off-label; know species/route/frequency from a trusted source); remove K / treat cause; stop K-containing fluids."
+    },
+    {
+      "id": "W01-Q12",
+      "week": "W01",
+      "stem": "Regarding insulin + dextrose for hyperkalaemia in dogs/cats:",
+      "options": {
+        "A": "It is licensed at a single standard veterinary dose you must memorise for the exam without a source",
+        "B": "It is commonly used but off-label — only dose if confident of species, route and frequency from a trusted source; monitor glucose",
+        "C": "It permanently removes potassium from the body",
+        "D": "It replaces the need for calcium in bradycardic hyperkalaemia",
+        "E": "It is contraindicated whenever glucose is normal"
+      },
+      "answer": "B",
+      "explanation": "Insulin + dextrose shifts K intracellularly but is off-label in dogs/cats. Do not invent doses; confirm species/route/frequency from a source you trust and monitor glucose. It does not remove K from the body."
+    },
+    {
+      "id": "W01-Q13",
+      "week": "W01",
+      "stem": "Mild hypokalaemia in an eating dog is often managed with:",
+      "options": {
+        "A": "Neat undiluted IV KCl push",
+        "B": "Oral potassium supplementation if GI tract is usable",
+        "C": "Calcium gluconate as first-line K replacement",
+        "D": "Free-water restriction alone",
+        "E": "Winter’s formula–guided bicarbonate"
+      },
+      "answer": "B",
+      "explanation": "Mild hypokalaemia with a patient that is eating: oral replacement is appropriate. IV KCl in fluids is for moderate–severe or non-eating patients — never as a neat IV push."
+    },
+    {
+      "id": "W01-Q14",
+      "week": "W01",
+      "stem": "Cervical ventroflexion in a cat with weakness should raise strong suspicion of:",
+      "options": {
+        "A": "Isolated hypernatraemia only",
+        "B": "Hypokalaemia (among other differentials)",
+        "C": "Mandatory Winter’s formula calculation",
+        "D": "Pseudohyponatraemia from lipaemia alone",
+        "E": "Always pre-renal azotaemia"
+      },
+      "answer": "B",
+      "explanation": "Hypokalaemia classically causes weakness and cervical ventroflexion (especially cats), plus ileus/arrhythmias. Check K and concurrent Mag/Phos in DKA-type settings."
+    },
+    {
+      "id": "W01-Q15",
+      "week": "W01",
+      "stem": "When available, which calcium measurement is preferred for clinical decisions?",
+      "options": {
+        "A": "Total calcium only, ignoring albumin",
+        "B": "Ionised calcium",
+        "C": "Calculated osmolality",
+        "D": "Anion gap alone",
+        "E": "USG"
+      },
+      "answer": "B",
+      "explanation": "Prefer ionised Ca. Total Ca is influenced by albumin and acid–base, so it can mislead."
+    },
+    {
+      "id": "W01-Q16",
+      "week": "W01",
+      "stem": "Symptomatic hypocalcaemia (tetany/seizures) is treated acutely with:",
+      "options": {
+        "A": "Oral calcium only, never IV",
+        "B": "IV calcium; address cause and correct low Mg if present once stable",
+        "C": "Insulin + dextrose as first-line",
+        "D": "0.9% NaCl as the only therapy needed",
+        "E": "Free-water restriction"
+      },
+      "answer": "B",
+      "explanation": "Symptomatic hypocalcaemia needs IV calcium; oral maintenance once stable. Correct concurrent hypomagnesaemia if low. Causes include eclampsia, hypoparathyroidism, EG, pancreatitis, CKD (variable), citrate from massive transfusion."
+    },
+    {
+      "id": "W01-Q17",
+      "week": "W01",
+      "stem": "A dog blood gas: pH 7.25, PCO₂ 28 mmHg, HCO₃⁻ 12 mmol/L. Best single interpretation using the dog compensation rule of thumb (~0.7 mmHg PCO₂ per 1 mmol/L HCO₃⁻)?",
+      "options": {
+        "A": "Primary respiratory acidosis, uncompensated",
+        "B": "Metabolic acidosis with roughly appropriate respiratory compensation",
+        "C": "Primary metabolic alkalosis",
+        "D": "Must use Winter’s formula to decide",
+        "E": "Normal acid–base status"
+      },
+      "answer": "B",
+      "explanation": "Low pH + low HCO₃⁻ = metabolic acidosis. Fall in HCO₃⁻ ~12 mmol/L from ~24 → expected PCO₂ fall ~0.7×12 ≈ 8–9 mmHg from ~40 → ~31–32; measured 28 is in a plausible compensated range (exact baselines vary). Do not use Winter’s formula in dogs."
+    },
+    {
+      "id": "W01-Q18",
+      "week": "W01",
+      "stem": "Which statement about acid–base compensation is correct for membership exams?",
+      "options": {
+        "A": "Winter’s formula should be applied routinely to dogs",
+        "B": "Cat compensation rules are less established — be cautious applying dog numbers to cats",
+        "C": "Dogs never show respiratory compensation for metabolic disorders",
+        "D": "PCO₂ never changes when HCO₃⁻ changes",
+        "E": "Mixed disorders are excluded if pH is abnormal"
+      },
+      "answer": "B",
+      "explanation": "Dog rule of thumb ~0.7 mmHg PCO₂ per 1 mmol/L HCO₃⁻ for metabolic disorders. Cat rules are less established. Winter’s formula is a human equation — not for dogs. Far-off compensation suggests a mixed disorder."
+    },
+    {
+      "id": "W01-Q19",
+      "week": "W01",
+      "stem": "High anion-gap metabolic acidosis is most consistent with which category of causes?",
+      "options": {
+        "A": "Diarrhoea alone as the classic normal-AG picture",
+        "B": "Lactate, ketones, uraemic acids, toxins (e.g. ethylene glycol)",
+        "C": "Aggressive chloride-rich fluid as the primary AG-raising mechanism",
+        "D": "Always lab error only",
+        "E": "Hyperchloraemia without unmeasured anions"
+      },
+      "answer": "B",
+      "explanation": "High AG ≈ unmeasured anions: lactate, ketones, uraemic acids, toxins (e.g. EG). Normal AG (hyperchloraemic): diarrhoea, RTA, chloride-rich fluids."
+    },
+    {
+      "id": "W01-Q20",
+      "week": "W01",
+      "stem": "Hypoalbuminaemia can mislead anion-gap interpretation because it:",
+      "options": {
+        "A": "Raises AG and always proves high-AG acidosis",
+        "B": "Lowers AG and can mask a high-AG process",
+        "C": "Has no effect on AG",
+        "D": "Converts all metabolic acidosis to respiratory alkalosis",
+        "E": "Invalidates USG cut-offs"
+      },
+      "answer": "B",
+      "explanation": "Low albumin lowers the AG and can hide a high-AG acidosis. Always read AG with albumin and the clinical picture."
+    },
+    {
+      "id": "W01-Q21",
+      "week": "W01",
+      "stem": "In an azotaemic dog that has not received fluids/diuretics, USG >1.030 most supports:",
+      "options": {
+        "A": "Primary renal failure as the only possibility",
+        "B": "Concentrating ability consistent with pre-renal azotaemia (until other diluting factors apply)",
+        "C": "Diabetes insipidus",
+        "D": "Mandatory post-renal obstruction",
+        "E": "That Winter’s formula applies"
+      },
+      "answer": "B",
+      "explanation": "Concentrated urine supports pre-renal azotaemia: dog USG >1.030, cat >1.035 (absent other reasons for dilute urine). Lower USG with azotaemia suggests renal (or post-renal with secondary injury) until proven otherwise — after excluding diluting factors."
+    },
+    {
+      "id": "W01-Q22",
+      "week": "W01",
+      "stem": "Membership USG cut-offs often cited for supporting pre-renal azotaemia are:",
+      "options": {
+        "A": "Dog >1.015 and cat >1.020",
+        "B": "Dog >1.030 and cat >1.035",
+        "C": "Dog >1.050 and cat >1.060",
+        "D": "Same cut-off 1.025 for both species",
+        "E": "USG is irrelevant once creatinine is high"
+      },
+      "answer": "B",
+      "explanation": "Dog USG >1.030 and cat USG >1.035 support pre-renal azotaemia when the patient can concentrate and you have not already diluted them. Do not invent tighter ACVIM numeric cut-offs beyond this teaching point."
+    },
+    {
+      "id": "W01-Q23",
+      "week": "W01",
+      "stem": "Which factor can make urine inappropriately dilute and confound the azotaemia–USG assessment?",
+      "options": {
+        "A": "Only primary glomerulonephritis",
+        "B": "Prior fluids, diuretics, glucocorticoids, DM/DI, medullary washout, hypercalcaemia, liver failure, post-obstructive diuresis",
+        "C": "Eating a normal meal 12 hours earlier only",
+        "D": "Measuring Na in mmol/L",
+        "E": "Using dual SI/conventional unit reporting"
+      },
+      "answer": "B",
+      "explanation": "Many non-renal factors dilute urine. Interpret USG cut-offs only if the patient can concentrate and you have not already diluted them."
+    },
+    {
+      "id": "W01-Q24",
+      "week": "W01",
+      "stem": "Euvolaemic hypotonic hyponatraemia (e.g. SIADH-like or psychogenic water intake) is typically managed by:",
+      "options": {
+        "A": "Isotonic crystalloid shock boluses as the main Na-raising strategy",
+        "B": "Free-water restriction and finding the cause",
+        "C": "Immediate chronic correction >20 mmol/L/day",
+        "D": "Calcium gluconate",
+        "E": "High-AG toxin protocols only"
+      },
+      "answer": "B",
+      "explanation": "Euvolaemic hypotonic hyponatraemia: restrict free water and identify the cause (SIADH-like, psychogenic intake, etc.). Do not “chase Na” the same way as hypovolaemic loss."
+    },
+    {
+      "id": "W01-Q25",
+      "week": "W01",
+      "stem": "Hypervolaemic hyponatraemia (heart failure, liver failure, advanced kidney disease) — best principle:",
+      "options": {
+        "A": "Liberally give salt-containing fluid to raise Na",
+        "B": "Treat the primary disease; free-water restriction / careful diuresis as indicated — do not chase Na with more salt water",
+        "C": "Always give D5W boluses",
+        "D": "Calcium gluconate first-line",
+        "E": "Ignore volume status"
+      },
+      "answer": "B",
+      "explanation": "Hypervolaemic hypotonic hyponatraemia: treat the primary disease; restrict free water / diurese carefully as indicated. More isotonic salt water often worsens the problem."
+    },
+    {
+      "id": "W01-Q26",
+      "week": "W01",
+      "stem": "A lab reports albumin 2.0 g/dL (20 g/L) and a “normal” anion gap in a sick dog with suspected lactic acidosis. Best caution?",
+      "options": {
+        "A": "Normal AG excludes lactate",
+        "B": "Hypoalbuminaemia may have lowered AG and masked a high-AG process",
+        "C": "Convert albumin to mmol/L before interpreting AG",
+        "D": "Apply Winter’s formula to albumin",
+        "E": "USG >1.030 proves the AG is valid"
+      },
+      "answer": "B",
+      "explanation": "Dual units: 2.0 g/dL = 20 g/L. Low albumin lowers AG and can hide high-AG acidosis (e.g. lactate). Interpret AG with albumin and clinic."
+    },
+    {
+      "id": "W01-Q27",
+      "week": "W01",
+      "stem": "Matching fluid to loss — pure water deficit / hypernatraemia after volume is restored is best addressed with:",
+      "options": {
+        "A": "Isotonic crystalloid exclusively forever",
+        "B": "Hypotonic / free-water sources (e.g. D5W once dextrose metabolised; half-strength saline ± dextrose)",
+        "C": "Colloids as first-line",
+        "D": "Neat KCl IV push",
+        "E": "Oral table salt loading only"
+      },
+      "answer": "B",
+      "explanation": "After perfusion is safe, free-water deficit is replaced with hypotonic/free-water fluids, slowly. Isotonic crystalloids do not preferentially correct pure water deficit."
+    },
+    {
+      "id": "W01-Q28",
+      "week": "W01",
+      "stem": "Which exam trap is correctly stated?",
+      "options": {
+        "A": "Calcium gluconate lowers serum K⁺ as its primary effect",
+        "B": "Winter’s formula is validated for dogs and should be used in every metabolic acidosis",
+        "C": "Calcium gluconate ≠ K⁺-lowering therapy; Winter’s formula is not for dogs",
+        "D": "Chronic Na disorders should always be corrected in <6 hours",
+        "E": "Insulin + dextrose doses may be invented freely in answers"
+      },
+      "answer": "C",
+      "explanation": "Classic traps: Ca gluconate does not lower K⁺; do not apply Winter’s to dogs; correct chronic Na slowly (~10–12 mmol/L/day); do not invent insulin doses (off-label — know species/route/frequency from a trusted source)."
+    },
+    {
+      "id": "W01-Q29",
+      "week": "W01",
+      "stem": "A cat has azotaemia and USG 1.020 after overnight fluids at another clinic. Best interpretation?",
+      "options": {
+        "A": "USG 1.020 proves irreversible renal failure in every cat",
+        "B": "Prior fluids may have diluted urine — do not over-read the cut-off without context",
+        "C": "Pre-renal azotaemia is confirmed because cat cut-off is >1.015",
+        "D": "Apply dog compensation rule of 0.7 to USG",
+        "E": "Anion gap replaces USG in cats"
+      },
+      "answer": "B",
+      "explanation": "Cat pre-renal support is USG >1.035 when concentrating ability is intact and urine has not already been diluted. Prior fluids confound the assessment."
+    },
+    {
+      "id": "W01-Q30",
+      "week": "W01",
+      "stem": "A dog with suspected ethylene glycol toxicity has high AG metabolic acidosis. Albumin is 1.5 g/dL (15 g/L). Which statement is most accurate?",
+      "options": {
+        "A": "“Normal” AG would fully exclude toxins because albumin is low",
+        "B": "High AG fits unmeasured anions (e.g. EG metabolites); low albumin can still blunt AG — integrate labs with history",
+        "C": "Treat only with free-water restriction",
+        "D": "First give calcium gluconate to lower the AG",
+        "E": "Use Winter’s formula to calculate EG dose"
+      },
+      "answer": "B",
+      "explanation": "Toxins such as EG cause high-AG acidosis. Hypoalbuminaemia (1.5 g/dL = 15 g/L) can lower AG and mask severity — always combine AG, albumin, and clinical context. No invented drug doses here."
+    }
+  ],
+  "W02": [
+    {
+      "id": "W02-Q1",
+      "week": "W02",
+      "stem": "A 6-year-old Akita has a routine serum K of 6.8 mEq/L (6.8 mmol/L). The ECG is normal, Na is normal, and the sample was separated 6 h after collection. What is the most likely explanation?",
+      "options": {
+        "A": "Hypoadrenocorticism",
+        "B": "Pseudohyperkalaemia from high-K erythrocytes and delayed separation",
+        "C": "Oliguric acute kidney injury",
+        "D": "Trimethoprim-associated hyperkalaemia",
+        "E": "Hyperaldosteronism"
+      },
+      "answer": "B",
+      "explanation": "Akitas and some other Japanese and Korean breeds (Shiba Inu, Jindo) can have high-K RBCs, so delayed separation or haemolysis raises K in vitro. A normal ECG and normal Na fit this. Repeat on promptly separated heparinised plasma."
+    },
+    {
+      "id": "W02-Q2",
+      "week": "W02",
+      "stem": "A blood sample from a domestic shorthair cat is moderately haemolysed. What effect on measured K would you expect?",
+      "options": {
+        "A": "Marked increase",
+        "B": "Little change, because feline RBCs are low-K",
+        "C": "Marked decrease",
+        "D": "Increase only if refrigerated",
+        "E": "K cannot be measured"
+      },
+      "answer": "B",
+      "explanation": "Most canine and feline erythrocytes contain little K, so haemolysis rarely causes clinically important pseudohyperkalaemia, unlike in humans. Haemolysis can still interfere with other assays."
+    },
+    {
+      "id": "W02-Q3",
+      "week": "W02",
+      "stem": "A cat with a urethral obstruction has K 9.0 mEq/L (9.0 mmol/L), bradycardia and absent P waves. What is the most appropriate FIRST drug?",
+      "options": {
+        "A": "10% calcium gluconate slowly IV with ECG monitoring",
+        "B": "Furosemide IV",
+        "C": "Insulin glargine SC",
+        "D": "Sodium polystyrene sulfonate orally",
+        "E": "Spironolactone orally"
+      },
+      "answer": "A",
+      "explanation": "With life-threatening ECG changes, cardioprotection comes first. Then shift K into cells (insulin plus dextrose, off-label) and remove the cause (relieve the obstruction, give fluids)."
+    },
+    {
+      "id": "W02-Q4",
+      "week": "W02",
+      "stem": "Which statement about calcium gluconate in hyperkalaemia is CORRECT?",
+      "options": {
+        "A": "It lowers K by driving it into cells",
+        "B": "Its effect lasts for many hours",
+        "C": "It restores myocardial excitability without lowering K",
+        "D": "It is contraindicated when the ECG is abnormal",
+        "E": "It increases renal K excretion"
+      },
+      "answer": "C",
+      "explanation": "Calcium raises the threshold potential and restores the gap between resting and threshold potential. Serum K is unchanged and the effect is short-lived, so K-lowering steps must follow."
+    },
+    {
+      "id": "W02-Q5",
+      "week": "W02",
+      "stem": "Which statement about insulin and dextrose for hyperkalaemia in dogs and cats is CORRECT?",
+      "options": {
+        "A": "Long-acting insulin glargine SC is preferred",
+        "B": "Regular insulin IV with dextrose, then dextrose in fluids and serial glucose checks; this is off-label use",
+        "C": "Dextrose is unnecessary if the patient is normoglycaemic",
+        "D": "It reduces total-body K",
+        "E": "It is the fastest way to protect the myocardium"
+      },
+      "answer": "B",
+      "explanation": "Insulin activates Na⁺/K⁺-ATPase and moves K into cells. Total-body K does not change. Dextrose prevents hypoglycaemia, which can occur hours later. Calcium, not insulin, provides immediate cardioprotection."
+    },
+    {
+      "id": "W02-Q6",
+      "week": "W02",
+      "stem": "A cat with CKD has cervical ventroflexion, raised CK and K 2.6 mEq/L (2.6 mmol/L). It is eating well. What is the best long-term management?",
+      "options": {
+        "A": "Oral potassium gluconate",
+        "B": "Spironolactone",
+        "C": "Long-term IV KCl",
+        "D": "Furosemide",
+        "E": "Oral sodium bicarbonate alone"
+      },
+      "answer": "A",
+      "explanation": "Oral K gluconate (or citrate) suits stable, eating cats with CKD. HypoK myopathy (ventroflexion, high CK) responds. Chronic hypoK can also worsen feline renal function."
+    },
+    {
+      "id": "W02-Q7",
+      "week": "W02",
+      "stem": "What is the commonly cited maximum IV potassium infusion rate in dogs and cats?",
+      "options": {
+        "A": "0.05 mEq/kg/h",
+        "B": "0.5 mEq/kg/h (0.5 mmol/kg/h)",
+        "C": "2 mEq/kg/h",
+        "D": "5 mEq/kg/h",
+        "E": "There is no limit if an ECG is attached"
+      },
+      "answer": "B",
+      "explanation": "Faster rates risk cardiotoxicity. Remember that KPhos also contributes K."
+    },
+    {
+      "id": "W02-Q8",
+      "week": "W02",
+      "stem": "A dog's hypokalaemia does not correct despite appropriate KCl supplementation. Which value should you check next?",
+      "options": {
+        "A": "Magnesium",
+        "B": "Sodium",
+        "C": "Glucose",
+        "D": "Cholesterol",
+        "E": "Bile acids"
+      },
+      "answer": "A",
+      "explanation": "Hypomagnesaemia increases renal K wasting, so K will not correct until Mg is replaced."
+    },
+    {
+      "id": "W02-Q9",
+      "week": "W02",
+      "stem": "A dog has a platelet count of 1,200 × 10⁹/L. Serum K is 6.1 mEq/L (6.1 mmol/L) and heparinised plasma K is 4.6 mEq/L (4.6 mmol/L). What is the best interpretation?",
+      "options": {
+        "A": "True hyperkalaemia; treat with calcium",
+        "B": "Pseudohyperkalaemia from K released by platelets during clotting",
+        "C": "EDTA contamination of the plasma",
+        "D": "Hypoadrenocorticism",
+        "E": "Analyser failure; repeat serum"
+      },
+      "answer": "B",
+      "explanation": "Platelets release K during clotting, so serum K exceeds plasma K. Heparinised plasma reflects the in vivo value."
+    },
+    {
+      "id": "W02-Q10",
+      "week": "W02",
+      "stem": "A dog with PLE has total Ca 7.2 mg/dL (1.8 mmol/L) and albumin 1.6 g/dL (16 g/L), with no clinical signs. What is the best next step?",
+      "options": {
+        "A": "Apply an albumin-corrected Ca formula",
+        "B": "Measure ionised Ca",
+        "C": "Start oral calcitriol",
+        "D": "Give IV calcium gluconate",
+        "E": "Measure PTHrP"
+      },
+      "answer": "B",
+      "explanation": "Correction formulas predict iCa poorly in dogs and cats. Low total Ca with hypoalbuminaemia often comes with normal iCa. Note that PLE (e.g. Yorkshire terriers) can also cause true ionised hypoCa and hypoMg, which is why measuring is essential."
+    },
+    {
+      "id": "W02-Q11",
+      "week": "W02",
+      "stem": "Which handling error makes ionised Ca falsely LOW?",
+      "options": {
+        "A": "Anaerobic balanced-heparin syringe analysed immediately",
+        "B": "Air exposure of the sample, which lets CO₂ escape and pH rise",
+        "C": "Patient acidaemia",
+        "D": "Dry, Ca-balanced heparin",
+        "E": "Analysis within minutes at the cage side"
+      },
+      "answer": "B",
+      "explanation": "CO₂ loss raises pH, which increases Ca binding to albumin and lowers iCa. Excess liquid heparin and EDTA also give falsely low iCa. True acidaemia raises iCa in vivo."
+    },
+    {
+      "id": "W02-Q12",
+      "week": "W02",
+      "stem": "Which electrolyte pattern suggests K-EDTA contamination of a serum sample?",
+      "options": {
+        "A": "↑K, ↓Ca, ↓Mg",
+        "B": "↓K, ↑Ca",
+        "C": "↑Na, ↑Cl",
+        "D": "↓K, ↓Na",
+        "E": "↑Ca, ↑P"
+      },
+      "answer": "A",
+      "explanation": "K-EDTA adds K and chelates divalent cations (Ca, Mg). ALP can also read falsely low."
+    },
+    {
+      "id": "W02-Q13",
+      "week": "W02",
+      "stem": "A clinically well 10-year-old Keeshond has high iCa, phosphate 2.5 mg/dL (0.81 mmol/L, low-normal), normal renal values, mid-reference PTH and undetectable PTHrP. What is the most likely diagnosis?",
+      "options": {
+        "A": "Primary hyperparathyroidism",
+        "B": "Lymphoma",
+        "C": "Vitamin D toxicosis",
+        "D": "Renal secondary hyperparathyroidism",
+        "E": "Hypoadrenocorticism"
+      },
+      "answer": "A",
+      "explanation": "A \"normal\" PTH alongside high iCa is inappropriate, which makes this PTH-dependent hypercalcaemia. Low-normal P fits. Keeshonds are over-represented. In renal secondary HPT, iCa is normal or low with high P."
+    },
+    {
+      "id": "W02-Q14",
+      "week": "W02",
+      "stem": "A dog has high iCa, low PTH, raised PTHrP and a firm perianal mass. What is the most likely cause?",
+      "options": {
+        "A": "Apocrine gland anal sac adenocarcinoma",
+        "B": "Primary hyperparathyroidism",
+        "C": "Cholecalciferol rodenticide",
+        "D": "Granulomatous disease",
+        "E": "CKD"
+      },
+      "answer": "A",
+      "explanation": "This is humoral hypercalcaemia of malignancy. PTHrP suppresses PTH. AGASACA and lymphoma are the classic canine causes, so always do a rectal exam."
+    },
+    {
+      "id": "W02-Q15",
+      "week": "W02",
+      "stem": "What is the most commonly reported cause of ionised hypercalcaemia in cats?",
+      "options": {
+        "A": "Primary hyperparathyroidism",
+        "B": "Idiopathic hypercalcaemia",
+        "C": "Hypoadrenocorticism",
+        "D": "Vitamin D toxicosis",
+        "E": "Multiple myeloma"
+      },
+      "answer": "B",
+      "explanation": "Feline idiopathic hypercalcaemia is a diagnosis of exclusion: PTH low-normal, PTHrP negative, vitamin D metabolites unremarkable. Neoplasia and CKD are the next main differentials."
+    },
+    {
+      "id": "W02-Q16",
+      "week": "W02",
+      "stem": "A dog chewed a tube of calcipotriol (psoriasis) cream 2 days ago. Which profile is expected?",
+      "options": {
+        "A": "↑Ca, ↑P, low PTH",
+        "B": "↑Ca, ↓P, high PTH",
+        "C": "↓Ca, ↑P, high PTH",
+        "D": "↑Ca, ↓P, high PTHrP",
+        "E": "Normal Ca, ↓P"
+      },
+      "answer": "A",
+      "explanation": "The vitamin D analogue increases GI and bone Ca and P absorption, so PTH is suppressed. The high Ca × P product drives soft-tissue mineralisation and AKI. For example, Ca 15.2 mg/dL (3.8 mmol/L) with P 9.3 mg/dL (3.0 mmol/L)."
+    },
+    {
+      "id": "W02-Q17",
+      "week": "W02",
+      "stem": "What is the most appropriate initial fluid for a dehydrated dog with severe hypercalcaemia?",
+      "options": {
+        "A": "Lactated Ringer's solution",
+        "B": "0.9% NaCl",
+        "C": "5% dextrose in water",
+        "D": "Hydroxyethyl starch",
+        "E": "0.45% NaCl with 2.5% dextrose"
+      },
+      "answer": "B",
+      "explanation": "It is Ca-free, and the Na load promotes calciuresis. LRS contains Ca. Furosemide is added only after volume repletion. Avoid glucocorticoids before the diagnosis, because they can mask lymphoma."
+    },
+    {
+      "id": "W02-Q18",
+      "week": "W02",
+      "stem": "Why should glucocorticoids be avoided in a hypercalcaemic dog before a diagnosis is reached?",
+      "options": {
+        "A": "They worsen hypercalcaemia",
+        "B": "They may mask or partly treat lymphoma and hinder diagnosis",
+        "C": "They cause hyperkalaemia",
+        "D": "They are nephrotoxic",
+        "E": "They increase PTH secretion"
+      },
+      "answer": "B",
+      "explanation": "Steroids lower Ca in lymphoma and other causes. Given first, they can make cytology or histology non-diagnostic and may induce chemotherapy resistance. Sample nodes, marrow and masses first."
+    },
+    {
+      "id": "W02-Q19",
+      "week": "W02",
+      "stem": "A hyperthyroid cat has facial rubbing and muscle tremors 48 h after bilateral thyroidectomy. iCa is 0.8 mmol/L (3.2 mg/dL). What is the mechanism?",
+      "options": {
+        "A": "Hypomagnesaemia from anaesthesia",
+        "B": "Iatrogenic hypoparathyroidism from parathyroid damage or removal",
+        "C": "Calcitonin excess from the thyroid remnant",
+        "D": "Refeeding syndrome",
+        "E": "Hyperphosphataemia from tumour lysis"
+      },
+      "answer": "B",
+      "explanation": "This is the classic complication after bilateral thyroidectomy. Treat with slow IV calcium gluconate (ECG), then oral calcitriol and Ca while monitoring iCa."
+    },
+    {
+      "id": "W02-Q20",
+      "week": "W02",
+      "stem": "A Chihuahua bitch 2 weeks postpartum has tremors, panting and hyperthermia. iCa is 0.65 mmol/L (2.6 mg/dL). During IV calcium gluconate, which monitoring is MOST important?",
+      "options": {
+        "A": "Blood glucose every 5 min",
+        "B": "Continuous ECG, stopping or slowing for bradycardia or arrhythmias",
+        "C": "Urine specific gravity",
+        "D": "Serum cortisol",
+        "E": "Body weight"
+      },
+      "answer": "B",
+      "explanation": "Rapid IV Ca can cause bradycardia, arrhythmias and cardiac arrest. Give it slowly to effect while watching the ECG. Then manage the pups (supplementary feeding or weaning) and continue oral Ca."
+    },
+    {
+      "id": "W02-Q21",
+      "week": "W02",
+      "stem": "A Yorkshire terrier with PLE has hypocalcaemia that responds poorly to Ca supplementation. Which disturbance most likely explains this?",
+      "options": {
+        "A": "Hypomagnesaemia impairing PTH secretion and action",
+        "B": "Hypernatraemia",
+        "C": "Hyperkalaemia",
+        "D": "Hypochloraemia",
+        "E": "Hyperglycaemia"
+      },
+      "answer": "A",
+      "explanation": "Low Mg reduces PTH release and causes end-organ PTH resistance. Correct Mg as well as Ca, and also check vitamin D status in PLE."
+    },
+    {
+      "id": "W02-Q22",
+      "week": "W02",
+      "stem": "A cat with DKA becomes anaemic with haemolysed plasma 24 h after starting insulin. Glucose is now 250 mg/dL (13.9 mmol/L). Which electrolyte disorder is most likely responsible?",
+      "options": {
+        "A": "Hypophosphataemia",
+        "B": "Hypercalcaemia",
+        "C": "Hypernatraemia",
+        "D": "Hyperkalaemia",
+        "E": "Hyperchloraemia"
+      },
+      "answer": "A",
+      "explanation": "Insulin moves P into cells on top of the total-body depletion. Severe hypoP lowers RBC ATP and causes haemolysis, and cats are prone. Supplement potassium phosphate IV and count its K contribution."
+    },
+    {
+      "id": "W02-Q23",
+      "week": "W02",
+      "stem": "Three days after starting tube feeding, a cat with hepatic lipidosis becomes weak. What is the hallmark electrolyte change of refeeding syndrome?",
+      "options": {
+        "A": "Hypophosphataemia (often with hypoK and hypoMg)",
+        "B": "Hypercalcaemia",
+        "C": "Hyperkalaemia",
+        "D": "Hypernatraemia only",
+        "E": "Hyperchloraemic acidosis"
+      },
+      "answer": "A",
+      "explanation": "Feeding-induced insulin release drives P, K and Mg into cells. Thiamine deficiency is also part of refeeding. Start feeding gradually and monitor electrolytes closely."
+    },
+    {
+      "id": "W02-Q24",
+      "week": "W02",
+      "stem": "A dog with a pyloric foreign body has Cl 88 mmol/L, K 2.9 mEq/L (2.9 mmol/L) and HCO₃⁻ 34 mmol/L. What is the best initial fluid plan?",
+      "options": {
+        "A": "0.9% NaCl with KCl added",
+        "B": "Sodium bicarbonate-containing fluid",
+        "C": "5% dextrose in water",
+        "D": "Lactated Ringer's without K",
+        "E": "Ammonium chloride IV as first line"
+      },
+      "answer": "A",
+      "explanation": "This is a chloride-responsive hypochloraemic, hypokalaemic metabolic alkalosis. The Cl-rich crystalloid plus K corrects the maintenance factors. Relieve the obstruction."
+    },
+    {
+      "id": "W02-Q25",
+      "week": "W02",
+      "stem": "What is the mechanism of paradoxical aciduria in a dog with gastric-outflow vomiting?",
+      "options": {
+        "A": "Renal tubular acidosis",
+        "B": "Volume, Cl and K depletion make the kidney reabsorb Na with HCO₃⁻ and secrete H⁺ despite alkalaemia",
+        "C": "Ketonuria",
+        "D": "Urinary tract infection with urease-negative bacteria",
+        "E": "Excess dietary protein"
+      },
+      "answer": "B",
+      "explanation": "Aldosterone and hypoK increase distal H⁺ secretion. Low filtered Cl limits HCO₃⁻ excretion, so the urine is acidic while the blood is alkalaemic."
+    },
+    {
+      "id": "W02-Q26",
+      "week": "W02",
+      "stem": "A 13-year-old cat has hypokalaemia, systemic hypertension and metabolic alkalosis that persists despite 0.9% NaCl. Urine Cl is not low. What is the most likely diagnosis?",
+      "options": {
+        "A": "Primary hyperaldosteronism (Cl-resistant alkalosis)",
+        "B": "Gastric outflow obstruction",
+        "C": "Hypoadrenocorticism",
+        "D": "Diuretic-induced alkalosis after the drug has been stopped",
+        "E": "Contraction alkalosis"
+      },
+      "answer": "A",
+      "explanation": "Mineralocorticoid excess causes Cl-resistant alkalosis with K wasting. Saline does not fix it. Treat the cause (spironolactone, amlodipine for BP, ± adrenalectomy)."
+    },
+    {
+      "id": "W02-Q27",
+      "week": "W02",
+      "stem": "A dog has metabolic alkalosis with HCO₃⁻ 34 mmol/L. Using illustrative baseline values of HCO₃⁻ 22 mmol/L and PCO₂ 37 mmHg (4.9 kPa), what is the approximate expected PCO₂ with appropriate compensation?",
+      "options": {
+        "A": "37 mmHg (4.9 kPa)",
+        "B": "41 mmHg (5.5 kPa)",
+        "C": "45 mmHg (6.0 kPa)",
+        "D": "52 mmHg (6.9 kPa)",
+        "E": "60 mmHg (8.0 kPa)"
+      },
+      "answer": "C",
+      "explanation": "ΔHCO₃⁻ = 12 mmol/L, × 0.7 ≈ 8.4 mmHg, so ≈ 37 + 8.4 ≈ 45 mmHg. A measured PCO₂ well above or below this suggests a concurrent respiratory acidosis or alkalosis."
+    },
+    {
+      "id": "W02-Q28",
+      "week": "W02",
+      "stem": "Which statement about assessing respiratory compensation in dogs is CORRECT?",
+      "options": {
+        "A": "Winter's formula is validated for dogs",
+        "B": "Canine-derived rules apply: ≈0.7 mmHg PCO₂ change per 1 mmol/L HCO₃⁻ change in metabolic disorders; Winter's formula (human) should not be used",
+        "C": "Dogs do not compensate for metabolic alkalosis",
+        "D": "Compensation fully normalises pH",
+        "E": "Feline rules are identical and well validated"
+      },
+      "answer": "B",
+      "explanation": "Use species-specific expectations. Compensation never fully normalises pH. Feline data are limited."
+    },
+    {
+      "id": "W02-Q29",
+      "week": "W02",
+      "stem": "A vomiting dog in hypovolaemic shock has HCO₃⁻ 22 mmol/L (normal), AG 30 mmol/L, Cl 92 mmol/L (low) and lactate 6 mmol/L (54 mg/dL). What is the best interpretation?",
+      "options": {
+        "A": "No acid–base disorder",
+        "B": "Mixed high-AG metabolic acidosis (lactic) plus metabolic alkalosis (gastric loss)",
+        "C": "Pure respiratory alkalosis",
+        "D": "Hyperchloraemic metabolic acidosis",
+        "E": "Laboratory error"
+      },
+      "answer": "B",
+      "explanation": "A high AG means acid has been added. A normal HCO₃⁻ despite that means a concurrent alkalosis. Low Cl points to gastric HCl loss."
+    },
+    {
+      "id": "W02-Q30",
+      "week": "W02",
+      "stem": "A dog on potassium bromide has a chemistry panel showing Cl 135 mmol/L (high) and a negative anion gap. What is the best explanation?",
+      "options": {
+        "A": "True hyperchloraemic acidosis",
+        "B": "Bromide measured as chloride by the analyser, giving falsely high Cl and a low AG",
+        "C": "Lipaemia causing pseudohyperchloraemia",
+        "D": "Hypoalbuminaemia",
+        "E": "Saline overload"
+      },
+      "answer": "B",
+      "explanation": "Many Cl methods cannot tell bromide from chloride. Interpret Cl and the AG with caution in dogs on KBr."
+    }
+  ],
+  "W03": [
+    {
+      "id": "W03-Q1",
+      "week": "W03",
+      "stem": "First step in interpreting a full chemistry panel at membership level?",
+      "options": {
+        "A": "Rank every analyte by how far it is from the midpoint of the RI",
+        "B": "Compartmentalise by organ/metabolic groups, then synthesise with hemogram and UA",
+        "C": "Order bile acids before reading anything else",
+        "D": "Average all liver enzymes into one “liver score”",
+        "E": "Ignore electrolytes until the end"
+      },
+      "answer": "B",
+      "explanation": "Systematic compartmentalisation (kidney, electrolytes/acid–base, protein, liver leakage vs cholestasis, muscle, glucose/minerals) then integration with hemogram/UA. Not a flat ranked list."
+    },
+    {
+      "id": "W03-Q2",
+      "week": "W03",
+      "stem": "A dog has ↑↑AST, normal ALT, ↑↑CK, normal ALP/GGT/bilirubin. Best interpretation?",
+      "options": {
+        "A": "Acute cholestatic hepatopathy",
+        "B": "Primary hepatocellular necrosis only",
+        "C": "Muscle injury explaining the AST",
+        "D": "Steroid-induced enzyme pattern",
+        "E": "Prehepatic bilirubin overload"
+      },
+      "answer": "C",
+      "explanation": "AST is shared by liver and muscle; CK confirms muscle. Normal ALT/cholestasis markers argue against primary hepatobiliary disease as the driver."
+    },
+    {
+      "id": "W03-Q3",
+      "week": "W03",
+      "stem": "Which finding best supports a regenerative anaemia in a dog?",
+      "options": {
+        "A": "Normocytic normochromic indices alone",
+        "B": "Increased absolute reticulocyte count with polychromasia on smear",
+        "C": "A single nucleated RBC on the smear",
+        "D": "High MCHC alone",
+        "E": "Low RDW alone"
+      },
+      "answer": "B",
+      "explanation": "Absolute reticulocytes + polychromasia indicate marrow response. nRBC alone and indices alone are insufficient."
+    },
+    {
+      "id": "W03-Q4",
+      "week": "W03",
+      "stem": "In cats, which reticulocyte population should be used to classify regeneration?",
+      "options": {
+        "A": "Punctate reticulocytes only",
+        "B": "Aggregate reticulocytes",
+        "C": "Sum of aggregate + punctate always",
+        "D": "Howell–Jolly bodies counted as reticulocytes",
+        "E": "Only macrocytes on the analyser"
+      },
+      "answer": "B",
+      "explanation": "Aggregate reticulocytes (and polychromasia) reflect current regeneration; punctate persist longer and mislead if used alone."
+    },
+    {
+      "id": "W03-Q5",
+      "week": "W03",
+      "stem": "Anaemia detected 24 hours after acute haemoperitoneum, low absolute reticulocytes. Best statement?",
+      "options": {
+        "A": "Proves irreversible marrow failure",
+        "B": "May be pre-regenerative; marrow often needs ~3–5 days",
+        "C": "Proves iron deficiency",
+        "D": "Proves IMHA",
+        "E": "Rules out haemorrhage"
+      },
+      "answer": "B",
+      "explanation": "Early haemorrhage/haemolysis can appear non-regenerative until the marrow responds (~3–5 days)."
+    },
+    {
+      "id": "W03-Q6",
+      "week": "W03",
+      "stem": "Regenerative anaemia plus spherocytes and agglutination in a dog most strongly suggests?",
+      "options": {
+        "A": "Iron deficiency only",
+        "B": "Anaemia of inflammatory disease",
+        "C": "Immune-mediated haemolytic anaemia",
+        "D": "Pure red cell aplasia",
+        "E": "Hypothyroidism-related anaemia"
+      },
+      "answer": "C",
+      "explanation": "Spherocytes ± agglutination with regeneration classic for canine IMHA (confirm smear, saline agglutination technique, rule-outs)."
+    },
+    {
+      "id": "W03-Q7",
+      "week": "W03",
+      "stem": "Schistocytes in a regenerative or non-regenerative anaemia suggest which mechanism?",
+      "options": {
+        "A": "Simple dehydration artefact only",
+        "B": "Fragmentation / microangiopathic injury",
+        "C": "Steroid induction of ALP",
+        "D": "Passive transfer failure",
+        "E": "Dipstick false-positive glucose"
+      },
+      "answer": "B",
+      "explanation": "Schistocytes indicate RBC fragmentation (microangiopathy, turbulence, some neoplasias/DIC contexts)."
+    },
+    {
+      "id": "W03-Q8",
+      "week": "W03",
+      "stem": "Most consistent leukocyte change in a classic stress leukogram?",
+      "options": {
+        "A": "Eosinophilia",
+        "B": "Lymphopenia",
+        "C": "Marked left shift with toxic change",
+        "D": "Neutropenia with degenerative left shift",
+        "E": "Basophilia obligatory"
+      },
+      "answer": "B",
+      "explanation": "Lymphopenia is the most consistent stress (corticosteroid) marker; mature neutrophilia and eosinopenia often accompany it."
+    },
+    {
+      "id": "W03-Q9",
+      "week": "W03",
+      "stem": "Which set best fits an inflammatory leukogram?",
+      "options": {
+        "A": "Mature neutrophilia, lymphopenia, no bands, no toxic change only",
+        "B": "Neutrophilia or neutropenia with left shift ± toxic change",
+        "C": "Isolated eosinopenia with normal neutrophils",
+        "D": "Lymphocytosis with epinephrine excitement only",
+        "E": "Pancytopenia only"
+      },
+      "answer": "B",
+      "explanation": "Inflammation: left shift ± toxic change; neutrophil count may be high or low depending on demand vs supply."
+    },
+    {
+      "id": "W03-Q10",
+      "week": "W03",
+      "stem": "A dog has neutropenia with bands ≥ segmented neutrophils and toxic change. This is most concerning for?",
+      "options": {
+        "A": "Pure physiologic leukocytosis",
+        "B": "Demand exceeding supply (serious inflammatory demand)",
+        "C": "Labelling error only—ignore",
+        "D": "Steroid stress alone",
+        "E": "Normal greyhound physiology"
+      },
+      "answer": "B",
+      "explanation": "Degenerative left-shift pattern (bands ≥ segs and/or neutropenia with immaturity) suggests tissue demand outpacing marrow release—clinically serious."
+    },
+    {
+      "id": "W03-Q11",
+      "week": "W03",
+      "stem": "Physiologic (epinephrine) leukocytosis is best characterised by?",
+      "options": {
+        "A": "Long-standing neutrophilia with toxic left shift",
+        "B": "Short-lived neutrophilia ± lymphocytosis without left shift",
+        "C": "Always eosinophilia",
+        "D": "Pathognomonic for leukaemia",
+        "E": "Identical to stress leukogram including lymphopenia"
+      },
+      "answer": "B",
+      "explanation": "Brief catecholamine shift; common in cats/excited patients; no left shift/toxic change; may show lymphocytosis (unlike stress)."
+    },
+    {
+      "id": "W03-Q12",
+      "week": "W03",
+      "stem": "Hyperproteinaemia with albumin 4.8 g/dL (48 g/L) and proportional globulin rise most often means?",
+      "options": {
+        "A": "Multiple myeloma until proven otherwise",
+        "B": "Dehydration / haemoconcentration",
+        "C": "Protein-losing enteropathy",
+        "D": "Failure of passive transfer",
+        "E": "Selective glomerular albumin loss"
+      },
+      "answer": "B",
+      "explanation": "↑Albumin is not produced in excess in myeloma—think water deficit/haemoconcentration first."
+    },
+    {
+      "id": "W03-Q13",
+      "week": "W03",
+      "stem": "Albumin 1.6 g/dL (16 g/L) with low globulins, diarrhoea, and non-azotaemic patient most suggests?",
+      "options": {
+        "A": "Dehydration alone",
+        "B": "Protein-losing enteropathy (or combined enteric loss)",
+        "C": "Steroid-induced ALP only",
+        "D": "Pre-renal azotaemia",
+        "E": "Aggregate reticulocytosis"
+      },
+      "answer": "B",
+      "explanation": "Panhypoproteinaemia with GI signs fits PLE/severe enteric loss (also consider haemorrhage/exudate). PLN more often albumin-selective early."
+    },
+    {
+      "id": "W03-Q14",
+      "week": "W03",
+      "stem": "Best next step when dipstick protein is positive in a dog you suspect has renal proteinuria?",
+      "options": {
+        "A": "Trust the strip as quantitative",
+        "B": "Confirm and quantify with UPC (preferably quiet sediment)",
+        "C": "Start chemotherapy for myeloma",
+        "D": "Ignore if USG > 1.030",
+        "E": "Use leukocyte esterase instead"
+      },
+      "answer": "B",
+      "explanation": "Dipstick is a screen (albumin-biased); UPC quantifies. Interpret with sediment, USG, and clinical context; exclude post-renal causes."
+    },
+    {
+      "id": "W03-Q15",
+      "week": "W03",
+      "stem": "Low A:G ratio alone proves which diagnosis?",
+      "options": {
+        "A": "Myeloma",
+        "B": "Nothing by itself — interpret absolute albumin and globulin with the patient",
+        "C": "Always PLN",
+        "D": "Always dehydration",
+        "E": "Always liver failure"
+      },
+      "answer": "B",
+      "explanation": "A:G is a clue only; many processes lower the ratio (↓alb and/or ↑glob)."
+    },
+    {
+      "id": "W03-Q16",
+      "week": "W03",
+      "stem": "Which pattern best supports cholestasis rather than pure hepatocellular leakage?",
+      "options": {
+        "A": "Isolated ↑ALT",
+        "B": "↑ALP and ↑GGT ± hyperbilirubinaemia",
+        "C": "Isolated ↑CK",
+        "D": "Isolated ↑amylase",
+        "E": "Isolated ↑sodium"
+      },
+      "answer": "B",
+      "explanation": "ALP/GGT (± bilirubin) mark cholestasis/induction pathways more than ALT alone."
+    },
+    {
+      "id": "W03-Q17",
+      "week": "W03",
+      "stem": "Regarding ALP in cats versus dogs, which is correct?",
+      "options": {
+        "A": "Cats show marked steroid-induced ALP like dogs",
+        "B": "Feline ALP has a short half-life; elevations warrant investigation",
+        "C": "ALP is never useful in cats",
+        "D": "Any ALP rise in dogs proves bile duct obstruction",
+        "E": "GGT is always higher than ALP in feline lipidosis"
+      },
+      "answer": "B",
+      "explanation": "Cats: short ALP half-life → take rises seriously; they lack typical canine steroid ALP induction. Lipidosis often ALP↑ with relatively modest GGT—pattern, not absolute rule."
+    },
+    {
+      "id": "W03-Q18",
+      "week": "W03",
+      "stem": "Dog on corticosteroids: ALP ↑↑, GGT normal/mild, ALT mild, bilirubin normal, clinically well. Most reasonable statement?",
+      "options": {
+        "A": "Emergency biliary surgery indicated by ALP alone",
+        "B": "Consider steroid induction of ALP among differentials; interpret clinically",
+        "C": "Proves hepatic lipidosis",
+        "D": "Proves prehepatic haemolysis",
+        "E": "Rules out any hepatobiliary disease forever"
+      },
+      "answer": "B",
+      "explanation": "Canine ALP is sensitive and inducible by steroids; integrate GGT, bilirubin, clinical status—do not operate on ALP alone."
+    },
+    {
+      "id": "W03-Q19",
+      "week": "W03",
+      "stem": "Bilirubinuria in a cat is best regarded as?",
+      "options": {
+        "A": "Often normal in male cats like dogs",
+        "B": "Abnormal and worthy of explanation (haemolysis or hepatobiliary disease)",
+        "C": "Proof of UTI",
+        "D": "An artefact of concentrated urine only",
+        "E": "Equivalent to a positive leukocyte esterase"
+      },
+      "answer": "B",
+      "explanation": "Any bilirubinuria in cats is abnormal; dogs (especially males) may show low-grade bilirubinuria less alarmingly."
+    },
+    {
+      "id": "W03-Q20",
+      "week": "W03",
+      "stem": "Which UA statement is safest at membership level?",
+      "options": {
+        "A": "Strip USG replaces refractometer",
+        "B": "Leukocyte esterase/nitrite reliably diagnose canine/feline UTI",
+        "C": "Confirm unexpected glucosuria and interpret proteinuria beyond the strip (sediment ± UPC)",
+        "D": "Ketone pads detect all β-hydroxybutyrate perfectly",
+        "E": "Crystalluria always equals urolithiasis"
+      },
+      "answer": "C",
+      "explanation": "Dipstick has species and analyte pitfalls; refractometer for USG; sediment ± culture for UTI; UPC for significant proteinuria."
+    },
+    {
+      "id": "W03-Q21",
+      "week": "W03",
+      "stem": "Haematuria vs haemoglobinuria vs myoglobinuria — dipstick “blood” positive. What helps differentiate?",
+      "options": {
+        "A": "Nothing — all identical",
+        "B": "Sediment (RBCs), plasma colour, and clinical CK/muscle context",
+        "C": "ALP isoform only",
+        "D": "A:G ratio only",
+        "E": "Punctate reticulocyte count"
+      },
+      "answer": "B",
+      "explanation": "Pad detects haeme; sediment RBCs support haematuria; clear plasma + pigmenturia with muscle injury/↑CK supports myoglobin; haemolysed plasma supports haemoglobinuria."
+    },
+    {
+      "id": "W03-Q22",
+      "week": "W03",
+      "stem": "Concordant ↑HCT, ↑TP, and albumin 4.5 g/dL (45 g/L) in a vomiting dog most likely reflects?",
+      "options": {
+        "A": "Pure red cell aplasia",
+        "B": "Haemoconcentration from dehydration",
+        "C": "Failure of passive transfer",
+        "D": "Iron deficiency microcytosis",
+        "E": "Aggregate reticulocytosis"
+      },
+      "answer": "B",
+      "explanation": "Parallel rises in red cell mass estimate and proteins support dehydration/haemoconcentration—confirm on exam."
+    },
+    {
+      "id": "W03-Q23",
+      "week": "W03",
+      "stem": "Anaemia of inflammatory disease is typically?",
+      "options": {
+        "A": "Markedly regenerative with massive polychromasia",
+        "B": "Mild to moderate and non-regenerative (or poorly regenerative)",
+        "C": "Always microcytic hypochromic",
+        "D": "Diagnosed only by bile acids",
+        "E": "Identical to acute IMHA"
+      },
+      "answer": "B",
+      "explanation": "Common, usually mild–moderate, non-/poorly regenerative; mechanisms involve iron sequestration and cytokine marrow suppression."
+    },
+    {
+      "id": "W03-Q24",
+      "week": "W03",
+      "stem": "Absolute neutrophil count matters more than the neutrophil percentage because?",
+      "options": {
+        "A": "Percentages ignore total WBC and mislead when leukopenia/leukocytosis present",
+        "B": "Analysers never report absolutes",
+        "C": "Percentages diagnose leukaemia better",
+        "D": "Stress leukograms only appear on percentages",
+        "E": "UA depends on neutrophil %"
+      },
+      "answer": "A",
+      "explanation": "Always interpret absolute differential counts."
+    },
+    {
+      "id": "W03-Q25",
+      "week": "W03",
+      "stem": "Marked hyperglobulinaemia, rouleaux, and clinical hyperviscosity suspicion — next conceptual step?",
+      "options": {
+        "A": "Assume dehydration only and stop",
+        "B": "Consider monoclonal gammopathy work-up (protein electrophoresis pathway) after excluding common polyclonal causes as appropriate",
+        "C": "Treat as stress leukogram",
+        "D": "Diagnose based on strip USG",
+        "E": "Attribute to punctate reticulocytes"
+      },
+      "answer": "B",
+      "explanation": "Marked globulin increases raise polyclonal vs monoclonal differentials; SPE (and further typing) when clinically indicated."
+    },
+    {
+      "id": "W03-Q26",
+      "week": "W03",
+      "stem": "Glucose pad positive on urine, serum glucose 90 mg/dL (5 mmol/L). Best consideration?",
+      "options": {
+        "A": "Uncontrolled diabetes mellitus proven",
+        "B": "Consider primary renal glucosuria / tubular dysfunction (e.g. Fanconi) or strip artefact—verify",
+        "C": "Normal feline bilirubin metabolism",
+        "D": "Proof of cholestasis",
+        "E": "Stress leukogram equivalent"
+      },
+      "answer": "B",
+      "explanation": "Glucosuria without hyperglycaemia suggests renal tubular leak or false-positive strip—confirm methods/history."
+    },
+    {
+      "id": "W03-Q27",
+      "week": "W03",
+      "stem": "Which pair is the better “liver function” reflection than ALT?",
+      "options": {
+        "A": "Albumin and coagulation factors (with clinical context)",
+        "B": "ALP isoform percentage alone",
+        "C": "CK alone",
+        "D": "Punctate reticulocytes",
+        "E": "Strip leukocyte esterase"
+      },
+      "answer": "A",
+      "explanation": "Enzymes = injury/induction; function ≈ synthetic/excretory markers (albumin, glucose, urea, cholesterol, bilirubin, coag ± bile acids/ammonia)."
+    },
+    {
+      "id": "W03-Q28",
+      "week": "W03",
+      "stem": "Active urine sediment (pyuria, haematuria) while measuring UPC — best practice comment?",
+      "options": {
+        "A": "UPC is unaffected—always trust for staging glomerular disease",
+        "B": "Lower urinary inflammation/haemorrhage can confound UPC; note and often recheck after addressing",
+        "C": "Dipstick protein is preferable to UPC here",
+        "D": "Only sodium matters",
+        "E": "Proves myeloma kidney"
+      },
+      "answer": "B",
+      "explanation": "Post-renal protein/blood inflates UPC; interpret cautiously with active sediment."
+    },
+    {
+      "id": "W03-Q29",
+      "week": "W03",
+      "stem": "Dog: non-regenerative anaemia, azotaemia with creatinine 3.0 mg/dL (≈265 µmol/L), inadequately concentrated urine, normal leukogram. Most coherent clin-path story?",
+      "options": {
+        "A": "Acute IMHA only",
+        "B": "Anaemia consistent with chronic kidney disease (among differentials)",
+        "C": "Steroid ALP induction",
+        "D": "Physiologic leukocytosis",
+        "E": "Isolated dehydration with concentrated urine"
+      },
+      "answer": "B",
+      "explanation": "CKD commonly causes non-regenerative anaemia (↓EPO ± inflammation/iron issues) with azotaemia and inappropriate USG. Still a differential list, not a sole proof."
+    },
+    {
+      "id": "W03-Q30",
+      "week": "W03",
+      "stem": "Which approach best integrates fluid status with clin path without re-teaching Na/K physiology?",
+      "options": {
+        "A": "Diagnose dehydration from sodium alone always",
+        "B": "Use concordant HCT + TP/albumin + physical exam; electrolytes as corroboration",
+        "C": "Ignore albumin if HCT is normal",
+        "D": "Treat any ↑TP as myeloma",
+        "E": "Use leukocyte esterase as hydration marker"
+      },
+      "answer": "B",
+      "explanation": "Haemoconcentration pattern (↑HCT + ↑TP/albumin) plus exam findings; Na/K patterns from prior weeks corroborate free-water/solute status but are not used in isolation."
+    }
+  ]
+}

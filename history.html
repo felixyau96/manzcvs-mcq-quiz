@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>History · MANZCVS Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Attempt history</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+      </nav>
+    </header>
+    <div class="card">
+      <p class="muted">Times shown in Asia/Hong_Kong. History is stored in this browser only (localStorage) — clearing site data removes it.</p>
+      <div id="hist"><p class="empty">Loading…</p></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script>
+    function load() {
+      const attempts = ManzQuiz.loadAttempts()
+        .slice()
+        .sort((a, b) => String(b.finishedAtHKT || '').localeCompare(String(a.finishedAtHKT || '')));
+      const el = document.getElementById('hist');
+      if (!attempts.length) {
+        el.innerHTML = '<p class="empty">No attempts yet. <a href="index.html">Start a quiz</a>.</p>';
+        return;
+      }
+      const rows = attempts.map(a => {
+        const wrong = (a.wrongIds || []).join(', ') || '—';
+        return `<tr>
+          <td>${ManzQuiz.escapeHtml(a.finishedAtHKT || '')}</td>
+          <td>${ManzQuiz.escapeHtml(a.week)}</td>
+          <td><strong>${a.score}/${a.total}</strong></td>
+          <td class="muted" style="max-width:220px;word-break:break-word">${ManzQuiz.escapeHtml(wrong)}</td>
+          <td><a href="quiz.html?week=${encodeURIComponent(a.week)}">Redo</a></td>
+        </tr>`;
+      }).join('');
+      el.innerHTML = `<table class="hist">
+        <thead><tr><th>Date (HKT)</th><th>Week</th><th>Score</th><th>Wrong IDs</th><th></th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+    }
+    try {
+      load();
+    } catch (err) {
+      document.getElementById('hist').innerHTML = `<p class="empty">Failed: ${ManzQuiz.escapeHtml(String(err))}</p>`;
+    }
+  </script>
+</body>
+</html>

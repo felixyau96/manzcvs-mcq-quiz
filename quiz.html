@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz · MANZCVS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 id="title">Quiz</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+      </nav>
+    </header>
+    <div class="card" id="panel">
+      <p class="muted">Starting…</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const week = (params.get('week') || 'W01').toUpperCase();
+    document.getElementById('title').textContent = week + ' quiz';
+
+    let st = null;
+    let awaitingNext = false;
+
+    async function start() {
+      const bank = await ManzQuiz.loadBank();
+      st = ManzQuiz.createAttempt(bank, week);
+      renderQuestion(ManzQuiz.publicQuestion(st));
+    }
+
+    function renderQuestion(q) {
+      awaitingNext = false;
+      const pct = (q.index / q.total) * 100;
+      const opts = Object.keys(q.options).sort().map(L => `
+        <button type="button" class="opt" data-choice="${L}">
+          <span class="letter">${L}</span>
+          <span>${ManzQuiz.escapeHtml(q.options[L])}</span>
+        </button>`).join('');
+      document.getElementById('panel').innerHTML = `
+        <div class="progress"><span>Question ${q.index + 1} of ${q.total}</span><span>${ManzQuiz.escapeHtml(week)}</span></div>
+        <div class="bar"><span style="width:${pct}%"></span></div>
+        <div class="qid">${ManzQuiz.escapeHtml(q.id)}</div>
+        <p class="stem">${ManzQuiz.escapeHtml(q.stem)}</p>
+        <div class="options" id="opts">${opts}</div>
+        <div id="fb"></div>
+        <div class="actions" id="actions" hidden>
+          <button type="button" class="btn" id="nextBtn">Next</button>
+        </div>`;
+      document.querySelectorAll('.opt').forEach(btn => {
+        btn.addEventListener('click', () => answer(btn.dataset.choice));
+      });
+    }
+
+    function answer(choice) {
+      if (awaitingNext) return;
+      awaitingNext = true;
+      document.querySelectorAll('.opt').forEach(b => { b.disabled = true; });
+      let data;
+      try {
+        data = ManzQuiz.gradeAnswer(st, choice);
+      } catch (err) {
+        awaitingNext = false;
+        alert(String(err.message || err));
+        return;
+      }
+      document.querySelectorAll('.opt').forEach(b => {
+        if (b.dataset.choice === data.correctChoice) b.classList.add('correct');
+        if (b.dataset.choice === data.yourChoice && !data.correct) b.classList.add('wrong');
+      });
+      document.getElementById('fb').innerHTML = `
+        <div class="feedback ${data.correct ? 'ok' : 'bad'}">
+          <h3>${data.correct ? 'Correct' : 'Incorrect'}</h3>
+          <p class="muted" style="margin:0">${ManzQuiz.escapeHtml(data.explanation)}</p>
+        </div>`;
+      const actions = document.getElementById('actions');
+      actions.hidden = false;
+      const nextBtn = document.getElementById('nextBtn');
+      const isLast = data.index + 1 >= data.total;
+      nextBtn.textContent = isLast ? 'Finish' : 'Next';
+      nextBtn.onclick = () => goNext(isLast);
+    }
+
+    function goNext(isLast) {
+      if (isLast) {
+        const record = ManzQuiz.finishAttempt(st);
+        renderResult(record);
+        return;
+      }
+      st.index += 1;
+      if (st.index >= st.order.length) {
+        renderResult(ManzQuiz.finishAttempt(st));
+        return;
+      }
+      renderQuestion(ManzQuiz.publicQuestion(st));
+    }
+
+    function renderResult(data) {
+      const wrong = (data.wrongIds || []);
+      document.getElementById('panel').innerHTML = `
+        <h2>Attempt complete</h2>
+        <p class="muted">${ManzQuiz.escapeHtml(data.week)} · ${ManzQuiz.escapeHtml(data.finishedAtHKT || '')}</p>
+        <p class="score-big">${data.score} / ${data.total}</p>
+        <p><strong>Wrong question IDs</strong></p>
+        ${wrong.length
+          ? `<ul class="wrong-list">${wrong.map(id => `<li>${ManzQuiz.escapeHtml(id)}</li>`).join('')}</ul>`
+          : `<p class="muted">None — perfect score.</p>`}
+        <div class="actions">
+          <a class="btn" href="quiz.html?week=${encodeURIComponent(data.week)}">Redo ${ManzQuiz.escapeHtml(data.week)}</a>
+          <a class="btn secondary" href="history.html">History</a>
+          <a class="btn secondary" href="index.html">Home</a>
+        </div>`;
+    }
+
+    start().catch(err => {
+      document.getElementById('panel').innerHTML = `<p class="muted">Failed to start: ${ManzQuiz.escapeHtml(String(err))}</p>`;
+    });
+  </script>
+</body>
+</html>
