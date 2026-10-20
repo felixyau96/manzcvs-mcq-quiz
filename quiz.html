@@ -23,7 +23,7 @@
   <script>
     const params = new URLSearchParams(location.search);
     const week = (params.get('week') || 'W01').toUpperCase();
-    document.getElementById('title').textContent = week + ' quiz';
+    document.getElementById('title').textContent = ManzQuiz.weekLabel(week);
 
     let st = null;
     let awaitingNext = false;
@@ -43,7 +43,7 @@
           <span>${ManzQuiz.escapeHtml(q.options[L])}</span>
         </button>`).join('');
       document.getElementById('panel').innerHTML = `
-        <div class="progress"><span>Question ${q.index + 1} of ${q.total}</span><span>${ManzQuiz.escapeHtml(week)}</span></div>
+        <div class="progress"><span>Question ${q.index + 1} of ${q.total}</span><span>${ManzQuiz.escapeHtml(ManzQuiz.weekLabel(week))}</span></div>
         <div class="bar"><span style="width:${pct}%"></span></div>
         <div class="qid">${ManzQuiz.escapeHtml(q.id)}</div>
         <p class="stem">${ManzQuiz.escapeHtml(q.stem)}</p>
@@ -104,14 +104,14 @@
       const wrong = (data.wrongIds || []);
       document.getElementById('panel').innerHTML = `
         <h2>Attempt complete</h2>
-        <p class="muted">${ManzQuiz.escapeHtml(data.week)} · ${ManzQuiz.escapeHtml(data.finishedAtHKT || '')}</p>
+        <p class="muted">${ManzQuiz.escapeHtml(ManzQuiz.weekLabel(data.week))} · ${ManzQuiz.escapeHtml(data.finishedAtHKT || '')}</p>
         <p class="score-big">${data.score} / ${data.total}</p>
         <p><strong>Wrong question IDs</strong></p>
         ${wrong.length
           ? `<ul class="wrong-list">${wrong.map(id => `<li>${ManzQuiz.escapeHtml(id)}</li>`).join('')}</ul>`
           : `<p class="muted">None — perfect score.</p>`}
         <div class="actions">
-          <a class="btn" href="quiz.html?week=${encodeURIComponent(data.week)}">Redo ${ManzQuiz.escapeHtml(data.week)}</a>
+          <a class="btn" href="quiz.html?week=${encodeURIComponent(data.week)}">Redo this quiz</a>
           <a class="btn secondary" href="history.html">History</a>
           <a class="btn secondary" href="index.html">Home</a>
         </div>`;

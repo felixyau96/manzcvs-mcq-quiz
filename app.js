@@ -4,6 +4,23 @@
 
   const STORAGE_KEY = 'manzcvs-quiz-attempts';
   const WEEKS = ['W01', 'W02', 'W03'];
+  /** Display titles from Notion Study plan Topic (kept in sync manually). */
+  const WEEK_TITLES = {
+    W01: 'B1 wk1/4 · Fluids, electrolytes, acid–base & clinical pathology',
+    W02: 'B1 wk2/4 · Fluids, electrolytes, acid–base & clinical pathology',
+    W03: 'B1 wk3/4 · Fluids, electrolytes, acid–base & clinical pathology',
+  };
+
+  function weekTitle(weekId) {
+    const id = String(weekId || '').toUpperCase();
+    return WEEK_TITLES[id] || id;
+  }
+
+  function weekLabel(weekId) {
+    const id = String(weekId || '').toUpperCase();
+    const title = WEEK_TITLES[id];
+    return title ? title : id;
+  }
 
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) =>
@@ -85,6 +102,7 @@
   function weekCounts(bank) {
     return WEEKS.map((id) => ({
       id,
+      title: weekTitle(id),
       count: Array.isArray(bank[id]) ? bank[id].length : 0,
     }));
   }
@@ -185,6 +203,9 @@
   global.ManzQuiz = {
     STORAGE_KEY,
     WEEKS,
+    WEEK_TITLES,
+    weekTitle,
+    weekLabel,
     escapeHtml,
     fisherYates,
     shuffleOptions,

@@ -35,7 +35,7 @@
         const wrong = (a.wrongIds || []).join(', ') || '—';
         return `<tr>
           <td>${ManzQuiz.escapeHtml(a.finishedAtHKT || '')}</td>
-          <td>${ManzQuiz.escapeHtml(a.week)}</td>
+          <td>${ManzQuiz.escapeHtml(ManzQuiz.weekLabel(a.week))}</td>
           <td><strong>${a.score}/${a.total}</strong></td>
           <td class="muted" style="max-width:220px;word-break:break-word">${ManzQuiz.escapeHtml(wrong)}</td>
           <td><a href="quiz.html?week=${encodeURIComponent(a.week)}">Redo</a></td>

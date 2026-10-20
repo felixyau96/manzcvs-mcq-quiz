@@ -33,7 +33,7 @@
         const btn = document.createElement('button');
         btn.className = 'week-btn';
         btn.type = 'button';
-        btn.innerHTML = `<strong>${ManzQuiz.escapeHtml(w.id)}</strong><span class="muted">${w.count} questions</span>`;
+        btn.innerHTML = `<strong>${ManzQuiz.escapeHtml(w.title)}</strong><span class="muted">${ManzQuiz.escapeHtml(w.id)} · ${w.count} questions</span>`;
         btn.onclick = () => { location.href = 'quiz.html?week=' + encodeURIComponent(w.id); };
         el.appendChild(btn);
       }
