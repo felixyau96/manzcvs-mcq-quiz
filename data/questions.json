@@ -1264,5 +1264,427 @@
       "answer": "B",
       "explanation": "Haemoconcentration pattern (↑HCT + ↑TP/albumin) plus exam findings; Na/K patterns from prior weeks corroborate free-water/solute status but are not used in isolation."
     }
+  ],
+  "W04": [
+    {
+      "id": "W04-Q1",
+      "week": "W04",
+      "stem": "A shocked dog with isotonic GI losses needs intravascular volume restored. Which fluid type is the most appropriate first choice for resuscitation boluses?",
+      "options": {
+        "A": "5% dextrose in water (D5W)",
+        "B": "Half-strength saline with dextrose",
+        "C": "Isotonic crystalloid (e.g. balanced replacement solution or 0.9% NaCl)",
+        "D": "Pure free water orally",
+        "E": "Hypertonic saline as sole long-term maintenance"
+      },
+      "answer": "C",
+      "explanation": "Shock needs isotonic crystalloid to expand ECF/IV volume. Hypotonic fluids (A/B) are free-water vehicles, not resuscitation boluses."
+    },
+    {
+      "id": "W04-Q2",
+      "week": "W04",
+      "stem": "Which finding best separates poor perfusion from interstitial dehydration alone?",
+      "options": {
+        "A": "Mild skin tent with moist mucous membranes and normal pulses",
+        "B": "Tachycardia, weak pulses, dull mentation, prolonged CRT",
+        "C": "Concentrated urine with normal heart rate and strong pulses",
+        "D": "Isolated dry nose in an otherwise normal dog",
+        "E": "A single elevated albumin without clinical signs"
+      },
+      "answer": "B",
+      "explanation": "Perfusion markers (pulses, CRT, mentation, HR) reflect effective circulating volume. Skin tent alone is more hydration/interstitial."
+    },
+    {
+      "id": "W04-Q3",
+      "week": "W04",
+      "stem": "Large-volume resuscitation with 0.9% NaCl is most associated with which acid–base pattern?",
+      "options": {
+        "A": "Hypochloraemic metabolic alkalosis",
+        "B": "Hyperchloraemic (normal-AG) metabolic acidosis",
+        "C": "High-AG metabolic acidosis from ketones only",
+        "D": "Primary respiratory alkalosis",
+        "E": "No acid–base effect ever"
+      },
+      "answer": "B",
+      "explanation": "Relative Cl load from 0.9% NaCl commonly drives hyperchloraemic metabolic acidosis."
+    },
+    {
+      "id": "W04-Q4",
+      "week": "W04",
+      "stem": "When is aggressive isotonic fluid bolusing most inappropriate as first-line therapy?",
+      "options": {
+        "A": "Hypovolaemic shock from diarrhoea",
+        "B": "Suspected cardiogenic failure with crackles and a gallop",
+        "C": "Anaesthetic hypotension from vasodilation with dry patient",
+        "D": "Pre-renal azotaemia with USG 1.050 and tacky MM",
+        "E": "Haemorrhagic shock before blood products arrive"
+      },
+      "answer": "B",
+      "explanation": "Cardiogenic overload risk — bolus carefully/avoid; need inotropes/afterload/forward-flow strategy, not blind volume."
+    },
+    {
+      "id": "W04-Q5",
+      "week": "W04",
+      "stem": "Best monitoring plan during shock boluses?",
+      "options": {
+        "A": "Give a fixed full-day volume then leave the ward",
+        "B": "Reassess perfusion after each aliquot; watch RR/effort and stop when goals met",
+        "C": "Rely only on a single CVP number",
+        "D": "Ignore electrolytes until discharge",
+        "E": "Double the rate every 5 minutes regardless of exam"
+      },
+      "answer": "B",
+      "explanation": "Titrate to perfusion endpoints and overload signs; recheck electrolytes after large volumes."
+    },
+    {
+      "id": "W04-Q6",
+      "week": "W04",
+      "stem": "Dog: HCT 56%, albumin 4.6 g/dL (46 g/L), USG 1.048, creatinine 1.8 mg/dL (≈159 µmol/L), strong concentrating ability clinically intact. Best synthesis?",
+      "options": {
+        "A": "Primary polycythaemia requiring phlebotomy first",
+        "B": "Haemoconcentration / likely pre-renal azotaemia picture — restore volume",
+        "C": "End-stage CKD with fixed isosthenuria",
+        "D": "Selective hypoalbuminaemia from PLN",
+        "E": "Lab error because HCT and albumin never rise together"
+      },
+      "answer": "B",
+      "explanation": "Haemoconcentration triad + concentrated USG with azotaemia supports pre-renal physiology until proven otherwise."
+    },
+    {
+      "id": "W04-Q7",
+      "week": "W04",
+      "stem": "First step in interpreting hyponatraemia at membership level?",
+      "options": {
+        "A": "Immediately give hypertonic saline to every patient",
+        "B": "Assess volume status (hypo-/eu-/hypervolaemic), then mechanism",
+        "C": "Ignore glucose entirely",
+        "D": "Assume artefact in every case",
+        "E": "Correct Na to 160 mEq/L (160 mmol/L) within one hour"
+      },
+      "answer": "B",
+      "explanation": "Volume status frames mechanism and fluid choice; then consider artefact/osmotic shifts; correct carefully."
+    },
+    {
+      "id": "W04-Q8",
+      "week": "W04",
+      "stem": "Hypovolaemic hyponatraemia from GI losses — best initial fluid principle?",
+      "options": {
+        "A": "Large free-water boluses with D5W",
+        "B": "Restore circulating volume with isotonic crystalloid, then recheck Na",
+        "C": "Fluid restriction as the only step",
+        "D": "Oral salt tablets only, no IV access needed if shocked",
+        "E": "Immediate 0.45% NaCl shock boluses"
+      },
+      "answer": "B",
+      "explanation": "Volume restoration often improves Na as ADH drive falls; hypotonic shock boluses are wrong."
+    },
+    {
+      "id": "W04-Q9",
+      "week": "W04",
+      "stem": "Hypervolaemic hyponatraemia in a dog with CHF and ascites — best statement?",
+      "options": {
+        "A": "Treat with large isotonic boluses to “raise Na”",
+        "B": "Focus on treating heart failure / underlying disease and careful free-water management",
+        "C": "Always identical plan to hypovolaemic hyponatraemia",
+        "D": "Rapidly correct Na upward regardless of chronicity",
+        "E": "Hypernatraemia is more likely in this setting"
+      },
+      "answer": "B",
+      "explanation": "Perceived low ECV drives water retention; fix the disease; avoid volume-loading a congested patient."
+    },
+    {
+      "id": "W04-Q10",
+      "week": "W04",
+      "stem": "Regarding correction of chronic severe hyponatraemia:",
+      "options": {
+        "A": "Raise Na as fast as possible to prevent seizures forever",
+        "B": "Calculate carefully and avoid rapid overcorrection because of osmotic demyelination risk",
+        "C": "One blood gas fixes the plan for 48 h with no rechecks",
+        "D": "Volume status never matters once Na &lt; 130 mEq/L (130 mmol/L)",
+        "E": "Only oral water restriction is ever used in hypovolaemic shock"
+      },
+      "answer": "B",
+      "explanation": "Chronic adaptation → slow, monitored correction; no invented numeric rates required for the principle."
+    },
+    {
+      "id": "W04-Q11",
+      "week": "W04",
+      "stem": "Hypernatraemic hypovolaemic patient — first priority?",
+      "options": {
+        "A": "Immediate pure free-water IV bolus before any volume assessment",
+        "B": "Restore perfusion with isotonic crystalloid, then replace free-water deficit slowly",
+        "C": "Restrict all water indefinitely",
+        "D": "Give KCl undiluted IV",
+        "E": "Assume Na is always artefact"
+      },
+      "answer": "B",
+      "explanation": "Shock/volume first with isotonic fluid; then controlled free-water replacement to lower Na gradually."
+    },
+    {
+      "id": "W04-Q12",
+      "week": "W04",
+      "stem": "Life-threatening hyperkalaemia is most urgently suggested by:",
+      "options": {
+        "A": "Mild fatigue with K just above RI and normal ECG",
+        "B": "Bradycardia, spiked T waves, widening QRS in a blocked cat",
+        "C": "Isolated eosinophilia",
+        "D": "Low USG alone",
+        "E": "Mild respiratory alkalosis alone"
+      },
+      "answer": "B",
+      "explanation": "ECG toxicity + clinical context (e.g. urethral obstruction) = emergency hyperK pathway."
+    },
+    {
+      "id": "W04-Q13",
+      "week": "W04",
+      "stem": "Best ordered principle for cardiotoxic hyperkalaemia in urethral obstruction?",
+      "options": {
+        "A": "Invent an insulin dose from memory, then ignore the obstruction",
+        "B": "Cardioprotection if needed → shift K → relieve obstruction / restore urine flow → remove/dilute K; never invent insulin units",
+        "C": "Give oral K supplements",
+        "D": "Wait 24 h for spontaneous resolution without catheterisation",
+        "E": "Use only D5W boluses with no monitoring"
+      },
+      "answer": "B",
+      "explanation": "Membrane stabilisation, shift, relieve obstruction, eliminate K — use written protocols for insulin/glucose; do not invent units."
+    },
+    {
+      "id": "W04-Q14",
+      "week": "W04",
+      "stem": "Insulin therapy for hyperkalaemia requires which concurrent safeguard?",
+      "options": {
+        "A": "No glucose monitoring ever",
+        "B": "Concurrent glucose provision/monitoring for hypoglycaemia risk",
+        "C": "Simultaneous undiluted KCl push",
+        "D": "Stopping all ECG monitoring",
+        "E": "Guaranteeing K will not rebound"
+      },
+      "answer": "B",
+      "explanation": "Insulin shifts K and glucose indoors — monitor glucose; use a protocol."
+    },
+    {
+      "id": "W04-Q15",
+      "week": "W04",
+      "stem": "Safe statement about IV potassium supplementation?",
+      "options": {
+        "A": "Undiluted KCl IV push is acceptable in wards",
+        "B": "Add KCl to fluids per formulary; respect peripheral concentration limits; never IV push undiluted KCl",
+        "C": "Any hypokalaemia is corrected with a single subcutaneous bolus of stock KCl",
+        "D": "K supplementation is contraindicated in all vomiting dogs",
+        "E": "Serum K always equals total body K"
+      },
+      "answer": "B",
+      "explanation": "Diluted in fluids, protocol-limited rates/concentrations; serum K ≠ total body stores (shifts)."
+    },
+    {
+      "id": "W04-Q16",
+      "week": "W04",
+      "stem": "Hypokalaemia clinical clue especially familiar in cats?",
+      "options": {
+        "A": "Cervical ventroflexion / muscle weakness",
+        "B": "Spiked T waves as the dominant ECG change",
+        "C": "Always pathognomonic for hyperadrenocorticism",
+        "D": "Guaranteed normal acid–base",
+        "E": "Polycythaemia"
+      },
+      "answer": "A",
+      "explanation": "Classic neuromuscular sign; hyperK more associated with spiked T / bradycardia patterns."
+    },
+    {
+      "id": "W04-Q17",
+      "week": "W04",
+      "stem": "Correct first move in acid–base interpretation?",
+      "options": {
+        "A": "Jump straight to anion gap without pH",
+        "B": "Evaluate pH (acidaemia vs alkalaemia), then PCO₂ vs HCO₃⁻/TCO₂",
+        "C": "Treat every low TCO₂ with bicarbonate immediately",
+        "D": "Ignore chloride",
+        "E": "Assume all disorders are respiratory"
+      },
+      "answer": "B",
+      "explanation": "Stepwise: pH → metabolic vs respiratory → compensation → AG → Cl pattern."
+    },
+    {
+      "id": "W04-Q18",
+      "week": "W04",
+      "stem": "High anion-gap metabolic acidosis — most fitting cause list?",
+      "options": {
+        "A": "Diarrhoea bicarbonate loss only",
+        "B": "Lactate, ketones, uraemic acids, selected toxins",
+        "C": "Vomiting of stomach acid as the sole explanation",
+        "D": "Hyperchloraemia from 0.9% NaCl only",
+        "E": "Primary hyperventilation only"
+      },
+      "answer": "B",
+      "explanation": "Titration acidosis adds unmeasured anions. Diarrhoea/saline → normal-AG hyperchloraemic pattern."
+    },
+    {
+      "id": "W04-Q19",
+      "week": "W04",
+      "stem": "Dog after large-volume 0.9% NaCl: pH low, HCO₃⁻ low, AG normal, Cl high vs Na. Pattern?",
+      "options": {
+        "A": "Titration metabolic acidosis",
+        "B": "Hyperchloraemic (normal-AG) metabolic acidosis",
+        "C": "Metabolic alkalosis",
+        "D": "Respiratory acidosis only",
+        "E": "No disorder"
+      },
+      "answer": "B",
+      "explanation": "Classic saline-related hyperchloraemic metabolic acidosis."
+    },
+    {
+      "id": "W04-Q20",
+      "week": "W04",
+      "stem": "Hypochloraemic metabolic alkalosis is most often linked to:",
+      "options": {
+        "A": "Gastric vomiting / loop diuretics with volume contraction",
+        "B": "Ethylene glycol alone",
+        "C": "Diabetic ketoacidosis as the usual sole cause",
+        "D": "Hyperchloraemia",
+        "E": "Primary hypoventilation"
+      },
+      "answer": "A",
+      "explanation": "Loss/sequestration of HCl ± maintenance by aldosterone/volume/K physiology."
+    },
+    {
+      "id": "W04-Q21",
+      "week": "W04",
+      "stem": "Compensation expected in primary metabolic acidosis?",
+      "options": {
+        "A": "Rise in PCO₂ from hypoventilation",
+        "B": "Fall in PCO₂ from hyperventilation",
+        "C": "Immediate normalisation of AG without treating cause",
+        "D": "Mandatory metabolic alkalosis simultaneously",
+        "E": "No respiratory change ever"
+      },
+      "answer": "B",
+      "explanation": "Respiratory compensation lowers PCO₂. “Wrong-way” compensation suggests mixed disorder."
+    },
+    {
+      "id": "W04-Q22",
+      "week": "W04",
+      "stem": "Best evidence of regenerative anaemia in a dog?",
+      "options": {
+        "A": "Normocytic normochromic indices alone",
+        "B": "Increased absolute reticulocyte count with polychromasia on smear",
+        "C": "A single nRBC",
+        "D": "High MCHC alone",
+        "E": "Low RDW alone"
+      },
+      "answer": "B",
+      "explanation": "Absolute retics + polychromasia. Indices/nRBC alone are insufficient."
+    },
+    {
+      "id": "W04-Q23",
+      "week": "W04",
+      "stem": "In cats, regeneration should be classified using:",
+      "options": {
+        "A": "Punctate reticulocytes only",
+        "B": "Aggregate reticulocytes",
+        "C": "Sum of aggregate + punctate always as the clinical standard",
+        "D": "Howell–Jolly bodies counted as reticulocytes",
+        "E": "Analyser macrocytes alone"
+      },
+      "answer": "B",
+      "explanation": "Aggregate retics (and polychromasia) reflect current regeneration; punctate persist and mislead."
+    },
+    {
+      "id": "W04-Q24",
+      "week": "W04",
+      "stem": "Leukogram: neutrophilia without bands, lymphopenia, eosinopenia, mild monocytosis, no toxic change. Pattern?",
+      "options": {
+        "A": "Overwhelming septic neutropenia",
+        "B": "Stress (corticosteroid) leukogram",
+        "C": "Acute leukaemia proven",
+        "D": "Physiologic lymphocytosis only",
+        "E": "Parasitic eosinophilia"
+      },
+      "answer": "B",
+      "explanation": "Classic stress pattern; inflammation more often shows left shift ± toxic change."
+    },
+    {
+      "id": "W04-Q25",
+      "week": "W04",
+      "stem": "TP high, albumin 4.5 g/dL (45 g/L), globulins proportionally up, tacky MM. Best read?",
+      "options": {
+        "A": "Multiple myeloma until SPE done today",
+        "B": "Dehydration / haemoconcentration until proven otherwise",
+        "C": "Selective PLN",
+        "D": "Failure of passive transfer",
+        "E": "Artefactual hypoalbuminaemia"
+      },
+      "answer": "B",
+      "explanation": "↑Albumin points to haemoconcentration, not paraprotein first."
+    },
+    {
+      "id": "W04-Q26",
+      "week": "W04",
+      "stem": "Albumin 1.8 g/dL (18 g/L), quiet sediment, elevated UPC. Next best protein interpretation step?",
+      "options": {
+        "A": "Ignore UPC because the dipstick already showed protein",
+        "B": "Interpret as renal proteinuria pathway (PLN) and stage/work up per current guidance",
+        "C": "Diagnose PLE only because globulins are not listed",
+        "D": "Assume sample is worthless without SPE",
+        "E": "Treat as dehydration"
+      },
+      "answer": "B",
+      "explanation": "Quiet sediment + ↑UPC supports glomerular protein loss pathway; use published consensus thresholds, don’t invent them."
+    },
+    {
+      "id": "W04-Q27",
+      "week": "W04",
+      "stem": "Marked ALP elevation in a cat with bilirubin 2.0 mg/dL (≈34 µmol/L) — best species note?",
+      "options": {
+        "A": "Ignore ALP — cats always have steroid-induced ALP like dogs",
+        "B": "Take feline ALP seriously (short half-life); investigate hepatobiliary disease; any bilirubinuria in cats is abnormal",
+        "C": "ALP never rises in cats",
+        "D": "Bilirubinuria is normal in every cat",
+        "E": "Only GGT matters in dogs, never in cats"
+      },
+      "answer": "B",
+      "explanation": "Feline ALP matters; steroid-ALP is a dog story; feline bilirubinuria is always abnormal."
+    },
+    {
+      "id": "W04-Q28",
+      "week": "W04",
+      "stem": "Dog: ↑↑AST, normal ALT, ↑↑CK, normal ALP/GGT/bilirubin. Best interpretation?",
+      "options": {
+        "A": "Acute cholestatic hepatopathy",
+        "B": "Muscle injury explaining the AST",
+        "C": "Steroid-induced enzyme pattern",
+        "D": "Prehepatic bilirubin overload",
+        "E": "Primary hepatocellular necrosis only"
+      },
+      "answer": "B",
+      "explanation": "AST shared by muscle; CK confirms. Do not call primary hepatitis from AST alone."
+    },
+    {
+      "id": "W04-Q29",
+      "week": "W04",
+      "stem": "Azotaemic dog, USG 1.012, clinically dehydrated, no obvious concentrating inhibitors identified. Best azotaemia classification lean?",
+      "options": {
+        "A": "Pre-renal only",
+        "B": "Compatible with renal azotaemia (inadequate concentrating ability)",
+        "C": "Post-renal only, always",
+        "D": "Impossible — dehydrated dogs always concentrate above 1.060",
+        "E": "Lab error mandatory"
+      },
+      "answer": "B",
+      "explanation": "Inadequate USG in a dehydrated azotaemic dog supports renal azotaemia unless inhibitors (e.g. medullary washout, drugs, electrolytes) explain it. Cut-offs vary — know the principle."
+    },
+    {
+      "id": "W04-Q30",
+      "week": "W04",
+      "stem": "Anaemia noted 24 h after acute haemoperitoneum; absolute reticulocytes still low. Best statement?",
+      "options": {
+        "A": "Proves irreversible marrow failure",
+        "B": "May be pre-regenerative; marrow often needs ~3–5 days",
+        "C": "Proves iron deficiency",
+        "D": "Proves IMHA",
+        "E": "Rules out haemorrhage"
+      },
+      "answer": "B",
+      "explanation": "Early haemorrhage can look non-regenerative until the marrow responds."
+    }
   ]
 }
