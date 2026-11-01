@@ -3,13 +3,14 @@
   'use strict';
 
   const STORAGE_KEY = 'manzcvs-quiz-attempts';
-  const WEEKS = ['W01', 'W02', 'W03', 'W04'];
+  const WEEKS = ['W01', 'W02', 'W03', 'W04', 'W05'];
   /** Display titles from Notion Study plan Topic (kept in sync manually). */
   const WEEK_TITLES = {
     W01: 'B1 wk1/4 · Fluids, electrolytes, acid-base & clinical pathology',
     W02: 'B1 wk2/4 · Fluids, electrolytes, acid-base & clinical pathology',
     W03: 'B1 wk3/4 · Fluids, electrolytes, acid-base & clinical pathology',
     W04: 'B1 wk4/4 · REVIEW · Fluids, electrolytes, acid-base & clinical pathology',
+    W05: 'B2 wk1/4 · Renal & urinary',
   };
 
   function weekTitle(weekId) {

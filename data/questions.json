@@ -1686,5 +1686,427 @@
       "answer": "B",
       "explanation": "Early haemorrhage can look non-regenerative until the marrow responds."
     }
+  ],
+  "W05": [
+    {
+      "id": "W05-Q1",
+      "week": "W05",
+      "stem": "Which pairing best matches clinical “jobs” of the nephron?",
+      "options": {
+        "A": "GFR ↔ USG only; tubules ↔ creatinine only",
+        "B": "GFR ↔ filtration of creatinine/urea surrogates; tubules ↔ reabsorb/secrete + concentrate with medulla/ADH",
+        "C": "Collecting duct ↔ SDMA synthesis; glomerulus ↔ USG",
+        "D": "Loop of Henle ↔ all azotaemia; glomerulus ↔ all PU/PD",
+        "E": "Proximal tubule ↔ blood pressure substaging"
+      },
+      "answer": "B",
+      "explanation": "Creatinine/urea/SDMA reflect filtration (GFR surrogates); concentrating needs tubular function + medullary hypertonicity + ADH response."
+    },
+    {
+      "id": "W05-Q2",
+      "week": "W05",
+      "stem": "A dehydrated dog has creatinine 2.0 mg/dL (≈177 µmol/L) and USG 1.050 with a quiet sediment. The most likely azotaemia fork lean is:",
+      "options": {
+        "A": "Primary hyposthenuric DI",
+        "B": "Pre-renal azotaemia (if no major concentrating inhibitors)",
+        "C": "Confirmed IRIS CKD Stage label from this single visit",
+        "D": "Post-renal rupture only",
+        "E": "Artefactual azotaemia from lipemia alone"
+      },
+      "answer": "B",
+      "explanation": "Azotaemia + appropriately concentrated USG in a volume-depleted patient supports pre-renal perfusion/GFR drop. Do not CKD-stage from one crisis sample."
+    },
+    {
+      "id": "W05-Q3",
+      "week": "W05",
+      "stem": "Which statement about feline azotaemia and USG is most accurate?",
+      "options": {
+        "A": "Cats never concentrate urine if creatinine is above the lab RI",
+        "B": "Cats may have renal azotaemia while still producing concentrated urine in some glomerular disease",
+        "C": "USG &gt; 1.060 always excludes kidney disease in cats",
+        "D": "Isosthenuria is required to diagnose any feline AKI",
+        "E": "Feline USG is irrelevant once SDMA is measured"
+      },
+      "answer": "B",
+      "explanation": "Classic teaching exception: cats can remain concentrating despite renal azotaemia in some glomerular disease patterns."
+    },
+    {
+      "id": "W05-Q4",
+      "week": "W05",
+      "stem": "Hyposthenuria (USG &lt; 1.008) most specifically indicates that the kidney can:",
+      "options": {
+        "A": "Neither dilute nor concentrate",
+        "B": "Dilute urine but not concentrate it (ADH lack/resistance pattern)",
+        "C": "Only filter creatinine, never water",
+        "D": "Always prove end-stage CKD",
+        "E": "Exclude central diabetes insipidus"
+      },
+      "answer": "B",
+      "explanation": "USG &lt; 1.008 means dilution occurred; concentrating failure points to ADH deficiency or resistance (among other considerations), not automatic CKD."
+    },
+    {
+      "id": "W05-Q5",
+      "week": "W05",
+      "stem": "Which factor can make USG “inadequately concentrated” even when primary renal failure is not the whole story?",
+      "options": {
+        "A": "Medullary washout, loop diuretics, hypercalcaemia, hypokalaemia, glucocorticoids, osmotic diuresis",
+        "B": "Only bacterial cystitis",
+        "C": "Only mild dental disease",
+        "D": "Vaccination status alone",
+        "E": "Coat colour"
+      },
+      "answer": "A",
+      "explanation": "Multiple extra-renal factors impair concentrating ability — interpret USG with drugs, electrolytes, and osmotic loads."
+    },
+    {
+      "id": "W05-Q6",
+      "week": "W05",
+      "stem": "Cornell-style teaching often cites which approximate “adequate” USG cue in an azotaemic dog (example only — literature varies)?",
+      "options": {
+        "A": "&gt; ~1.008",
+        "B": "&gt; ~1.015",
+        "C": "&gt; ~1.030",
+        "D": "&gt; ~1.060 always required",
+        "E": "Exactly 1.000"
+      },
+      "answer": "C",
+      "explanation": "Common teaching example for dogs is &gt; ~1.030 as “adequate” in azotaemia; cats often taught &gt; ~1.040. Prefer lab/context over rigid memorisation."
+    },
+    {
+      "id": "W05-Q7",
+      "week": "W05",
+      "stem": "Which constellation best supports CKD rather than hyperacute AKI alone?",
+      "options": {
+        "A": "24 h lily ingestion, large painful kidneys, HCT 45%, rising creatinine",
+        "B": "Months of PU/PD, small irregular kidneys, non-regenerative anaemia HCT 20%, stable hydrated creatinine on two visits",
+        "C": "Acute urethral obstruction with a large bladder",
+        "D": "Single creatinine spike after a 5 km run in a greyhound",
+        "E": "Post-prandial urea rise only"
+      },
+      "answer": "B",
+      "explanation": "Chronic history, small irregular kidneys, and chronic non-regenerative anaemia favour CKD; stage when stable/hydrated."
+    },
+    {
+      "id": "W05-Q8",
+      "week": "W05",
+      "stem": "IRIS CKD staging should be performed when:",
+      "options": {
+        "A": "Immediately on the first crisis creatinine in a blocked cat",
+        "B": "After CKD diagnosis in a stable, hydrated patient, ideally with ≥2 assessments",
+        "C": "Only using urine colour",
+        "D": "Only once, ever, in the pet’s life",
+        "E": "Only if the UPC is zero"
+      },
+      "answer": "B",
+      "explanation": "IRIS CKD staging assumes diagnosed CKD and stability/hydration with repeated assessments — not an emergency obstruction snapshot."
+    },
+    {
+      "id": "W05-Q9",
+      "week": "W05",
+      "stem": "The three IRIS CKD axes after diagnosis are best summarised as:",
+      "options": {
+        "A": "ALT, ALP, bilirubin",
+        "B": "Creatinine ± SDMA (stage), UPC (proteinuria substage), blood pressure (hypertension substage)",
+        "C": "Amylase, lipase, cPLI",
+        "D": "Total T4, TSH, free T4",
+        "E": "PT, aPTT, buccal mucosal bleeding time"
+      },
+      "answer": "B",
+      "explanation": "Stage with creatinine±SDMA; substage with UPC and BP using current IRIS tables."
+    },
+    {
+      "id": "W05-Q10",
+      "week": "W05",
+      "stem": "Why does IRIS recommend considering both creatinine and SDMA when staging CKD?",
+      "options": {
+        "A": "They are identical assays of albumin",
+        "B": "They are complementary GFR surrogates that can improve early detection and staging nuance",
+        "C": "SDMA replaces urinalysis entirely",
+        "D": "Creatinine measures only tubular secretion of glucose",
+        "E": "SDMA diagnoses bacterial UTI"
+      },
+      "answer": "B",
+      "explanation": "IRIS frames creatinine and SDMA as complementary excretory markers — still interpret with muscle mass, assay, and clinical context."
+    },
+    {
+      "id": "W05-Q11",
+      "week": "W05",
+      "stem": "A dog has dipstick protein 2+, USG 1.045, and an inactive sediment. Next best step to quantify renal proteinuria risk is:",
+      "options": {
+        "A": "Ignore protein because USG is high",
+        "B": "Measure urine protein:creatinine ratio (UPC), ideally confirming persistence",
+        "C": "Start chemotherapy empirically",
+        "D": "Diagnose diabetes mellitus from protein alone",
+        "E": "Assume the dipstick equals UPC numerically"
+      },
+      "answer": "B",
+      "explanation": "Quiet sediment + proteinuria → UPC for magnitude/monitoring; dipstick is screening only."
+    },
+    {
+      "id": "W05-Q12",
+      "week": "W05",
+      "stem": "A cat has pyuria, bacteriuria, and dipstick protein positive. Regarding UPC for IRIS proteinuria substaging:",
+      "options": {
+        "A": "Substage immediately — infection never affects UPC",
+        "B": "Defer renal proteinuria interpretation until post-renal inflammation/infection is addressed and sediment rechecked",
+        "C": "UPC is invalid in all cats forever",
+        "D": "Only free-catch culture is acceptable",
+        "E": "Protein dipstick alone is preferred over UPC for staging"
+      },
+      "answer": "B",
+      "explanation": "Active sediment/UTI can cause post-renal proteinuria — clear it, then reassess UPC for renal substaging."
+    },
+    {
+      "id": "W05-Q13",
+      "week": "W05",
+      "stem": "Which resource should guide canine glomerular/proteinuric work-up thresholds rather than invented memory numbers?",
+      "options": {
+        "A": "Random social media cut-offs",
+        "B": "Current ACVIM consensus on canine proteinuria / glomerular disease (plus IRIS proteinuria guidance)",
+        "C": "Human-only KDIGO numbers copied without species context",
+        "D": "Coat-colour charts",
+        "E": "Appetite alone"
+      },
+      "answer": "B",
+      "explanation": "Use published ACVIM/IRIS statements — do not invent UPC treatment thresholds in the exam answer."
+    },
+    {
+      "id": "W05-Q14",
+      "week": "W05",
+      "stem": "Glucosuria with a concurrent blood glucose of 90 mg/dL (5 mmol/L) most suggests:",
+      "options": {
+        "A": "Uncontrolled diabetes mellitus",
+        "B": "Proximal tubular dysfunction / renal glucosuria pattern",
+        "C": "Guaranteed post-renal obstruction",
+        "D": "Factitious hyperthyroidism",
+        "E": "Normal concentrating ability only"
+      },
+      "answer": "B",
+      "explanation": "Glucose in urine without hyperglycaemia points to tubular reabsorptive failure (toxin, Fanconi-like, etc.)."
+    },
+    {
+      "id": "W05-Q15",
+      "week": "W05",
+      "stem": "Granular or cellular casts on urine sediment are most helpful as evidence of:",
+      "options": {
+        "A": "Guaranteed lower urinary neoplasia",
+        "B": "Active renal tubular injury/degeneration",
+        "C": "Perfect kidney health",
+        "D": "Only pre-renal azotaemia",
+        "E": "Hyperadrenocorticism pathognomonic diagnosis"
+      },
+      "answer": "B",
+      "explanation": "Cellular/granular casts support tubular injury; interpret with the whole UA and clinical picture."
+    },
+    {
+      "id": "W05-Q16",
+      "week": "W05",
+      "stem": "Preferred sample for diagnosing significant bacteriuria when deciding antimicrobial therapy is usually:",
+      "options": {
+        "A": "Floor puddle swab",
+        "B": "Cystocentesis (when safe)",
+        "C": "Owner’s description only",
+        "D": "Dipstick leukocyte esterase alone in cats as definitive culture substitute",
+        "E": "Unrefrigerated free-catch left overnight on the counter"
+      },
+      "answer": "B",
+      "explanation": "Cystocentesis minimises contamination versus voided urine for culture-based decisions."
+    },
+    {
+      "id": "W05-Q17",
+      "week": "W05",
+      "stem": "Initial management priorities in suspected AKI include all EXCEPT:",
+      "options": {
+        "A": "Restore perfusion thoughtfully with isotonic crystalloid as indicated",
+        "B": "Stop nephrotoxins and relieve obstruction if present",
+        "C": "Monitor K, acid–base, urine output, and volume status",
+        "D": "Invent insulin units and KCl rates from memory without a protocol",
+        "E": "Serial reassessment of creatinine/SDMA and clinical perfusion"
+      },
+      "answer": "D",
+      "explanation": "Use written protocols/formulary for shifting/removing potassium — never invent insulin units."
+    },
+    {
+      "id": "W05-Q18",
+      "week": "W05",
+      "stem": "A blocked male cat has K markedly high, bradycardia, and creatinine 6.0 mg/dL (≈530 µmol/L). After brief stabilisation, the definitive step that restores K excretion is:",
+      "options": {
+        "A": "Waiting 72 h before any catheter attempt",
+        "B": "Relieving urethral obstruction / restoring urine flow",
+        "C": "Oral potassium supplementation",
+        "D": "IRIS CKD staging before decompression",
+        "E": "Free-water D5W boluses as sole therapy"
+      },
+      "answer": "B",
+      "explanation": "Medical cardioprotection/shifting is temporary; urine flow must be restored."
+    },
+    {
+      "id": "W05-Q19",
+      "week": "W05",
+      "stem": "Cardioprotection for ECG-toxic hyperkalaemia classically uses which principle?",
+      "options": {
+        "A": "IV calcium salts per protocol to stabilise membranes (does not lower total body K)",
+        "B": "Immediate undiluted KCl push",
+        "C": "Subcutaneous furosemide only, forever",
+        "D": "Stopping all monitoring",
+        "E": "Oral table salt as first line"
+      },
+      "answer": "A",
+      "explanation": "Calcium buys membrane stability; it does not remove potassium from the body."
+    },
+    {
+      "id": "W05-Q20",
+      "week": "W05",
+      "stem": "Which finding is more typical of longer-standing CKD than of hours-old AKI?",
+      "options": {
+        "A": "Non-regenerative anaemia from erythropoietin deficiency / chronic disease mechanisms",
+        "B": "Normal HCT always",
+        "C": "Sudden lily exposure only",
+        "D": "Acute urethral plug only",
+        "E": "Normal kidney size with severe pain only"
+      },
+      "answer": "A",
+      "explanation": "EPO-related non-regenerative anaemia usually needs time — more a CKD/chronicity clue (other anaemia causes still exist)."
+    },
+    {
+      "id": "W05-Q21",
+      "week": "W05",
+      "stem": "Uroabdomen is supported when:",
+      "options": {
+        "A": "Abdominal fluid creatinine is substantially higher than concurrent blood creatinine",
+        "B": "Fluid creatinine is always lower than blood",
+        "C": "USG alone diagnoses rupture",
+        "D": "Albumin is 4.0 g/dL (40 g/L) in every case",
+        "E": "The animal is never azotaemic"
+      },
+      "answer": "A",
+      "explanation": "Fluid:blood creatinine comparison (often taught as fluid much higher than blood) supports urine leakage."
+    },
+    {
+      "id": "W05-Q22",
+      "week": "W05",
+      "stem": "Isosthenuria (≈1.008–1.012) means urine osmolality is roughly:",
+      "options": {
+        "A": "Far above plasma always",
+        "B": "Similar to plasma (neither concentrated nor diluted)",
+        "C": "Identical to distilled water",
+        "D": "Proof of hypoadrenocorticism alone",
+        "E": "Incompatible with any renal disease"
+      },
+      "answer": "B",
+      "explanation": "Isosthenuria ≈ plasma osmolality — common in renal azotaemia but not mandatory on every sample."
+    },
+    {
+      "id": "W05-Q23",
+      "week": "W05",
+      "stem": "Which best describes IRIS AKI grading versus IRIS CKD staging?",
+      "options": {
+        "A": "Both require waiting weeks for absolute stability before any description",
+        "B": "AKI grading is dynamic severity (creatinine + clinical parameters such as urine flow); CKD staging is for stable chronic disease",
+        "C": "AKI grading uses only coat quality",
+        "D": "CKD staging ignores blood pressure and UPC",
+        "E": "They are interchangeable names for the same table"
+      },
+      "answer": "B",
+      "explanation": "AKI grade can change daily; CKD stage is assigned when chronic disease is stable — use current IRIS documents."
+    },
+    {
+      "id": "W05-Q24",
+      "week": "W05",
+      "stem": "A dog on furosemide for CHF has azotaemia and USG 1.018. Most appropriate interpretation?",
+      "options": {
+        "A": "Automatic end-stage CKD with no other differentials",
+        "B": "Interpret cautiously — loop diuretics impair concentrating ability; assess volume status, perfusion, and trends",
+        "C": "USG proves the dog is not on diuretics",
+        "D": "Diagnose central DI only",
+        "E": "Ignore creatinine because of furosemide"
+      },
+      "answer": "B",
+      "explanation": "Diuretics confound the azotaemia–USG fork; integrate exam, trends, and drug effects."
+    },
+    {
+      "id": "W05-Q25",
+      "week": "W05",
+      "stem": "Albumin 1.5 g/dL (15 g/L) with heavy persistent proteinuria (quiet sediment) and oedema most raises concern for:",
+      "options": {
+        "A": "Pure pre-renal azotaemia from panting",
+        "B": "Protein-losing nephropathy / nephrotic-spectrum disease needing full work-up",
+        "C": "Guaranteed hypoadrenocorticism",
+        "D": "Factitious dipstick-only artefact with no further tests",
+        "E": "Normal aging in all dogs"
+      },
+      "answer": "B",
+      "explanation": "Hypoalbuminaemia + significant renal proteinuria ± oedema → glomerular disease pathway (ACVIM framework)."
+    },
+    {
+      "id": "W05-Q26",
+      "week": "W05",
+      "stem": "Which monitoring set is most essential in hospitalised oliguric AKI?",
+      "options": {
+        "A": "Urine output, body weight, respiratory rate/effort, electrolytes (esp. K), acid–base",
+        "B": "Only coat shine weekly",
+        "C": "Only a single admission creatinine forever",
+        "D": "Only owner Facebook updates",
+        "E": "Only ALP and GGT"
+      },
+      "answer": "A",
+      "explanation": "Oliguric patients risk hyperK, acidosis, and fluid overload — track UO, weight, breathing, and chemistries."
+    },
+    {
+      "id": "W05-Q27",
+      "week": "W05",
+      "stem": "SDMA is best described clinically as:",
+      "options": {
+        "A": "A perfect replacement for blood pressure measurement",
+        "B": "An endogenous GFR surrogate that can rise earlier than creatinine in some patients, used alongside creatinine",
+        "C": "A bacterial culture medium",
+        "D": "A urine sediment stain",
+        "E": "A measure only of hepatic urea cycle failure"
+      },
+      "answer": "B",
+      "explanation": "SDMA complements creatinine as a GFR surrogate — still not a stand-alone “kidney physical exam.”"
+    },
+    {
+      "id": "W05-Q28",
+      "week": "W05",
+      "stem": "Which approach is correct when creatinine and SDMA imply different IRIS stages in a stable CKD patient?",
+      "options": {
+        "A": "Always discard SDMA",
+        "B": "Always discard creatinine",
+        "C": "Follow current IRIS guidance (commonly avoid underestimating — consider the higher implied stage) and recheck trends/clinical context",
+        "D": "Average them into a made-up stage 2.5 without looking at tables",
+        "E": "Stop staging forever"
+      },
+      "answer": "C",
+      "explanation": "IRIS teaches complementary use and caution against underestimation when discordant — verify with current published guidance."
+    },
+    {
+      "id": "W05-Q29",
+      "week": "W05",
+      "stem": "Lower urinary obstruction can “mimic renal disease” primarily by causing:",
+      "options": {
+        "A": "Post-renal azotaemia ± life-threatening hyperkalaemia",
+        "B": "Isolated ALT elevation only",
+        "C": "Pathognomonic hyposthenuria in every case",
+        "D": "Immediate non-regenerative anaemia within 1 hour",
+        "E": "Guaranteed sterile urine forever"
+      },
+      "answer": "A",
+      "explanation": "Obstruction blocks excretion → azotaemia and K retention; relieve after stabilising the heart."
+    },
+    {
+      "id": "W05-Q30",
+      "week": "W05",
+      "stem": "Membership-level exam discipline for renal numbers means:",
+      "options": {
+        "A": "Invent IRIS Stage cut-offs and insulin units confidently from memory",
+        "B": "Name mechanisms/axes, use lab RIs, and cite current IRIS/ACVIM published tables rather than fabricating thresholds",
+        "C": "Never mention USG",
+        "D": "Stage CKD during every urethral obstruction before catheterisation",
+        "E": "Treat dipstick protein as identical to UPC"
+      },
+      "answer": "B",
+      "explanation": "Principles + published sources beat invented cut-offs and doses — especially for IRIS staging and emergency drug rates."
+    }
   ]
 }
